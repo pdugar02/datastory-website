@@ -4,6 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Mail, Linkedin, Instagram, ChevronLeft, ChevronRight } from "lucide-react"
 import { useState, useEffect } from "react"
+import { MobileNav } from "@/components/mobile-nav"
 
 export default function Development() {
   const [currentAlumni, setCurrentAlumni] = useState(0)
@@ -50,9 +51,12 @@ export default function Development() {
   const currentProfile = alumniData[currentAlumni]
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col overflow-x-hidden">
+      {/* Mobile Navigation */}
+      <MobileNav currentPage="development" />
+
       {/* Header */}
-      <header className="sticky top-0 z-40 w-full bg-[#023020] text-[#eee1c6]">
+      <header className="sticky top-0 z-40 w-full bg-[#023020] text-[#eee1c6] hidden md:block">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <div className="flex items-center gap-2">
             <Link href="/">
@@ -89,19 +93,19 @@ export default function Development() {
         </div>
       </header>
 
-      <main className="flex-1">
+      <main className="flex-1 overflow-x-hidden">
         {/* Hero Section - HOW WE GROW */}
-        <section className="relative h-[500px] md:h-[600px]">
+        <section className="relative h-[500px] md:h-[600px] overflow-hidden">
           <Image
             src="/images/development-hero-large-team.jpeg"
             alt="DataStory team in business attire - How We Grow"
             fill
-            className="object-cover object-[60%_60%] scale-125"
+            className="object-cover object-center"
             priority
           />
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="absolute inset-0 flex items-start justify-center pt-16 md:pt-20">
-            <h1 className="text-6xl md:text-8xl font-bold text-[#eee1c6] tracking-wider">HOW WE GROW</h1>
+            <h1 className="text-6xl md:text-8xl font-bold text-center text-[#eee1c6] tracking-wider">HOW WE GROW</h1>
           </div>
         </section>
 
@@ -109,7 +113,7 @@ export default function Development() {
         <section className="relative py-20 bg-[#023020] overflow-hidden">
           {/* Curved background element */}
           <div className="absolute inset-0">
-            <div className="absolute top-0 right-0 w-[80%] h-full bg-[#eee1c6] rounded-l-full transform translate-x-1/3"></div>
+            <div className="absolute top-0 right-0 w-[80%] h-full bg-[#eee1c6] rounded-l-full transform translate-x-1/2"></div>
           </div>
 
           <div className="container mx-auto px-4 relative z-10">
@@ -138,7 +142,7 @@ export default function Development() {
         <section className="relative py-20 bg-[#023020] overflow-hidden">
           {/* Curved background element */}
           <div className="absolute inset-0">
-            <div className="absolute bottom-0 left-0 w-[80%] h-full bg-[#eee1c6] rounded-r-full transform -translate-x-1/3"></div>
+            <div className="absolute bottom-0 left-0 w-[80%] h-full bg-[#eee1c6] rounded-r-full transform -translate-x-1/2"></div>
           </div>
 
           <div className="container mx-auto px-4 relative z-10">
@@ -167,7 +171,7 @@ export default function Development() {
         <section className="relative py-20 bg-[#023020] overflow-hidden">
           {/* Curved background element */}
           <div className="absolute inset-0">
-            <div className="absolute top-0 right-0 w-[80%] h-full bg-[#eee1c6] rounded-l-full transform translate-x-1/3"></div>
+            <div className="absolute top-0 right-0 w-[80%] h-full bg-[#eee1c6] rounded-l-full transform translate-x-1/2"></div>
           </div>
 
           <div className="container mx-auto px-4 relative z-10">
@@ -197,7 +201,7 @@ export default function Development() {
           {/* Curved background elements */}
           <div className="absolute top-0 left-0 w-full h-32 bg-[#023020] rounded-b-full transform -translate-y-16"></div>
           <div className="absolute inset-0">
-            <div className="absolute top-0 right-0 w-[80%] h-full bg-[#eee1c6] rounded-l-full transform translate-x-1/3"></div>
+            <div className="absolute top-0 right-0 w-[80%] h-full bg-[#eee1c6] rounded-l-full transform translate-x-1/2"></div>
           </div>
 
           <div className="container mx-auto px-4 relative z-10">

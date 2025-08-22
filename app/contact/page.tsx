@@ -2,12 +2,16 @@ import Image from "next/image"
 import Link from "next/link"
 import { Mail, Linkedin, Instagram } from "lucide-react"
 import { ContactForm } from "@/components/contact-form"
+import { MobileNav } from "@/components/mobile-nav"
 
 export default function Contact() {
   return (
     <div className="flex min-h-screen flex-col">
+      {/* Mobile Navigation */}
+      <MobileNav currentPage="contact" />
+
       {/* Header */}
-      <header className="sticky top-0 z-40 w-full bg-[#023020] text-[#eee1c6]">
+      <header className="sticky top-0 z-40 w-full bg-[#023020] text-[#eee1c6] hidden md:block">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <div className="flex items-center gap-2">
             <Link href="/">
