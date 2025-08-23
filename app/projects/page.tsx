@@ -50,6 +50,12 @@ export default function ProjectsPage() {
               Our Team
             </Link>
             <Link
+              href="/apply"
+              className="text-sm font-medium hover:text-white transition-all duration-300 hover:scale-105"
+            >
+              Apply Now
+            </Link>
+            <Link
               href="/contact"
               className="text-sm font-medium hover:text-white transition-all duration-300 hover:scale-105"
             >
@@ -293,6 +299,12 @@ export default function ProjectsPage() {
                   className="block bg-[#023020] text-white px-3 py-1 text-sm rounded hover:bg-[#023020]/80 transition-colors"
                 >
                   Our Team
+                </Link>
+                <Link
+                  href="/apply"
+                  className="block bg-[#023020] text-white px-3 py-1 text-sm rounded hover:bg-[#023020]/80 transition-colors"
+                >
+                  Apply Now
                 </Link>
                 <Link
                   href="/contact"

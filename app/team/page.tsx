@@ -42,6 +42,9 @@ export default function Team() {
             <Link href="/team" className="text-sm font-medium bg-[#eee1c6] text-[#023020] px-3 py-1 rounded">
               Our Team
             </Link>
+            <Link href="/apply" className="text-sm font-medium hover:text-white transition-colors">
+              Apply Now
+            </Link>
             <Link href="/contact" className="text-sm font-medium hover:text-white transition-colors">
               Contact
             </Link>
@@ -75,10 +78,10 @@ export default function Team() {
             <h2 className="text-5xl md:text-6xl font-bold text-center mb-16 text-[#eee1c6]">Executive Board</h2>
 
             {/* First Row - Top Leadership */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12 max-w-6xl mx-auto">
+            <div className="grid grid-cols-4 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto">
               {/* Katie Zhang - President */}
               <div className="text-center group relative">
-                <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
                     src="/images/katie-zhang-headshot.jpeg"
                     alt="Katie Zhang"
@@ -91,8 +94,8 @@ export default function Team() {
                     <p className="text-center">Data Science, Economics</p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Katie Zhang</h3>
-                <p className="text-[#eee1c6] italic mb-2">President</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Katie Zhang</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">President</p>
                 <Link href="https://www.linkedin.com/in/katie-h-zhang/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
@@ -100,7 +103,7 @@ export default function Team() {
 
               {/* Pulak Dugar - External VP */}
               <div className="text-center group relative">
-                <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
                     src="/images/pulak-dugar-headshot.jpeg"
                     alt="Pulak Dugar"
@@ -113,8 +116,8 @@ export default function Team() {
                     <p className="text-center">Computer Science</p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Pulak Dugar</h3>
-                <p className="text-[#eee1c6] italic mb-2">External VP</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Pulak Dugar</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">External VP</p>
                 <Link href="https://www.linkedin.com/in/pulak-dugar/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
@@ -122,7 +125,7 @@ export default function Team() {
 
               {/* Mason Borgerding - Co-Internal VP */}
               <div className="text-center group relative">
-                <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
                     src="/images/mason-borgerding-headshot.jpeg"
                     alt="Mason Borgerding"
@@ -135,8 +138,8 @@ export default function Team() {
                     <p className="text-center">Analytics</p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Mason Borgerding</h3>
-                <p className="text-[#eee1c6] italic mb-2">Co-Internal VP</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Mason Borgerding</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Co-Internal VP</p>
                 <Link
                   href="http://www.linkedin.com/in/mason-borgerding-52a117277"
                   target="_blank"
@@ -148,7 +151,7 @@ export default function Team() {
 
               {/* Nikhil Rajgopal - Co-Internal VP */}
               <div className="text-center group relative">
-                <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
                     src="/images/nikhil-rajgopal-headshot.jpeg"
                     alt="Nikhil Rajgopal"
@@ -161,8 +164,8 @@ export default function Team() {
                     <p className="text-center">Economics</p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Nikhil Rajgopal</h3>
-                <p className="text-[#eee1c6] italic mb-2">Co-Internal VP</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Nikhil Rajgopal</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Co-Internal VP</p>
                 <Link
                   href="http://www.linkedin.com/in/nikhil-rajgopal-7051b51b6"
                   target="_blank"
@@ -174,10 +177,10 @@ export default function Team() {
             </div>
 
             {/* Second Row - VPs */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12 max-w-6xl mx-auto">
+            <div className="grid grid-cols-4 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto">
               {/* Avyukth Harish - VP of Projects */}
               <div className="text-center group relative">
-                <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
                     src="/images/avyukth-harish-headshot.jpeg"
                     alt="Avyukth Harish"
@@ -190,8 +193,8 @@ export default function Team() {
                     <p className="text-center">Data Science</p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Avyukth Harish</h3>
-                <p className="text-[#eee1c6] italic mb-2">VP of Projects</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Avyukth Harish</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">VP of Projects</p>
                 <Link href="http://linkedin.com/in/avy-harish" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
@@ -199,7 +202,7 @@ export default function Team() {
 
               {/* Jack White - VP of Projects */}
               <div className="text-center group relative">
-                <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
                     src="/images/jack-white-headshot.jpeg"
                     alt="Jack White"
@@ -212,8 +215,8 @@ export default function Team() {
                     <p className="text-center">Data Science</p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Jack White</h3>
-                <p className="text-[#eee1c6] italic mb-2">VP of Projects</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Jack White</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">VP of Projects</p>
                 <Link href="http://www.linkedin.com/in/jack-white-568761272" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
@@ -221,7 +224,7 @@ export default function Team() {
 
               {/* Shaivi Shah - VP of Operations */}
               <div className="text-center group relative">
-                <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
                     src="/images/shaivi-shah-headshot.jpeg"
                     alt="Shaivi Shah"
@@ -234,8 +237,8 @@ export default function Team() {
                     <p className="text-center">Data Science</p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Shaivi Shah</h3>
-                <p className="text-[#eee1c6] italic mb-2">VP of Operations</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Shaivi Shah</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">VP of Operations</p>
                 <Link href="http://www.linkedin.com/in/shaivi-shah-6b9b30305" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
@@ -243,7 +246,7 @@ export default function Team() {
 
               {/* Kayle Marsh - VP of Professional Development */}
               <div className="text-center group relative">
-                <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
                     src="/images/kayle-marsh-headshot.jpeg"
                     alt="Kayle Marsh"
@@ -256,8 +259,8 @@ export default function Team() {
                     <p className="text-center">Computer Science</p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Kayle Marsh</h3>
-                <p className="text-[#eee1c6] italic mb-2">VP of Professional Development</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Kayle Marsh</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">VP of Professional Development</p>
                 <Link href="http://www.linkedin.com/in/kaylemarsh" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
@@ -265,10 +268,10 @@ export default function Team() {
             </div>
 
             {/* Third Row - Directors */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 max-w-4xl mx-auto">
+            <div className="grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-8 mb-12 max-w-4xl mx-auto">
               {/* Kirin Desai - Dir. of Jr Consultants */}
               <div className="text-center group relative">
-                <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
                     src="/images/kirin-desai-headshot.jpeg"
                     alt="Kirin Desai"
@@ -281,15 +284,15 @@ export default function Team() {
                     <p className="text-center">Data Science, Economics </p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Kirin Desai</h3>
-                <p className="text-[#eee1c6] italic mb-2">Dir. of Jr Consultants</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Kirin Desai</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Dir. of Jr Consultants</p>
                 <Link href="https://www.linkedin.com/in/kirin-desai/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
               </div>
 
               <div className="text-center group relative">
-                <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
                     src="/images/hannah-chung-headshot.jpeg"
                     alt="Hannah Chung"
@@ -302,15 +305,15 @@ export default function Team() {
                     <p className="text-center">{"Statistics"}</p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Hannah Chung</h3>
-                <p className="text-[#eee1c6] italic mb-2">Dir. of Jr Consultants</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Hannah Chung</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Dir. of Jr Consultants</p>
                 <Link href="https://www.linkedin.com/in/hannah-chung/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
               </div>
 
               <div className="text-center group relative">
-                <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
                     src="/images/sam-gin-headshot.jpeg"
                     alt="Sam Gin"
@@ -323,8 +326,8 @@ export default function Team() {
                     <p className="text-center">Economics, Data Science </p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Sam Gin</h3>
-                <p className="text-[#eee1c6] italic mb-2">Dir. of Marketing</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Sam Gin</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Dir. of Marketing</p>
                 <Link href="https://www.linkedin.com/in/sam-gin/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
@@ -332,10 +335,10 @@ export default function Team() {
             </div>
 
             {/* Fourth Row - Junior VPs */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-2xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-2 gap-4 md:gap-8 mb-12 max-w-2xl mx-auto">
               {/* Julia Shvartsman - Jr VP of Operations */}
               <div className="text-center group relative">
-                <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
                     src="/images/julia-shvartsman-headshot.jpeg"
                     alt="Julia Shvartsman"
@@ -348,8 +351,8 @@ export default function Team() {
                     <p className="text-center">Data Science</p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Julia Shvartsman</h3>
-                <p className="text-[#eee1c6] italic mb-2">Jr VP of Operations</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Julia Shvartsman</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Jr VP of Operations</p>
                 <Link
                   href="https://www.linkedin.com/in/julia-shvartsman-4a89692ab/"
                   target="_blank"
@@ -361,7 +364,7 @@ export default function Team() {
 
               {/* Hasset Mekuria - Jr External VP */}
               <div className="text-center group relative">
-                <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
                     src="/images/hasset-mekuria-headshot.jpeg"
                     alt="Hasset Mekuria"
@@ -374,8 +377,8 @@ export default function Team() {
                     <p className="text-center">Data Science, Political Science </p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Hasset Mekuria</h3>
-                <p className="text-[#eee1c6] italic mb-2">Jr External VP</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Hasset Mekuria</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Jr External VP</p>
                 <Link
                   href="https://www.linkedin.com/in/hasset-mekuria-2189b8271"
                   target="_blank"
@@ -392,10 +395,10 @@ export default function Team() {
                 <h2 className="text-5xl md:text-6xl font-bold text-center mb-16 text-[#eee1c6]">Consultants</h2>
 
                 {/* Project Managers - First Row */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12 max-w-6xl mx-auto">
+                <div className="grid grid-cols-4 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto justify-items-center">
                   {/* Dhruv Hebbar */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/dhruv-hebbar-headshot.jpeg"
                         alt="Dhruv Hebbar"
@@ -408,8 +411,8 @@ export default function Team() {
                         <p className="text-center">Data Science, Economics </p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Dhruv Hebbar</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Project Manager</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Dhruv Hebbar</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Project Manager</p>
                     <Link href="http://www.linkedin.com/in/dhruvhebbar" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -417,7 +420,7 @@ export default function Team() {
 
                   {/* Diego Gutierrez */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/diego-gutierrez-headshot.jpeg"
                         alt="Diego Gutierrez"
@@ -430,8 +433,8 @@ export default function Team() {
                         <p className="text-center">Data Science, Economics</p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Diego Gutierrez</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Project Manager</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Diego Gutierrez</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Project Manager</p>
                     <Link
                       href="https://www.linkedin.com/in/diego-gutierrez-luns"
                       target="_blank"
@@ -443,7 +446,7 @@ export default function Team() {
 
                   {/* Divya Madgula */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/divya-madgula-headshot.png"
                         alt="Divya Madgula"
@@ -456,8 +459,8 @@ export default function Team() {
                         <p className="text-center">Applied Math, Data Science</p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Divya Madgula</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Project Manager</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Divya Madgula</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Project Manager</p>
                     <Link href="https://www.linkedin.com/in/divya-madgula/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -465,7 +468,7 @@ export default function Team() {
 
                   {/* Matthew Ho */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/matthew-ho-headshot.jpeg"
                         alt="Matthew Ho"
@@ -478,8 +481,8 @@ export default function Team() {
                         <p className="text-center">Data Science, Public Health </p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Matthew Ho</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Project Manager</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Matthew Ho</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Project Manager</p>
                     <Link href="https://www.linkedin.com/in/matthewho88/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -487,10 +490,10 @@ export default function Team() {
                 </div>
 
                 {/* Project Managers - Second Row */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12 max-w-6xl mx-auto">
+                <div className="grid grid-cols-4 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto justify-items-center">
                   {/* Neil Thomas */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/neil-thomas-headshot.jpeg"
                         alt="Neil Thomas"
@@ -503,8 +506,8 @@ export default function Team() {
                         <p className="text-center">EECS, Math </p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Neil Thomas</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Project Manager</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Neil Thomas</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Project Manager</p>
                     <Link href="https://www.linkedin.com/in/neiltthomas/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -512,7 +515,7 @@ export default function Team() {
 
                   {/* Oscar Araujo */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/oscar-araujo-headshot.jpeg"
                         alt="Oscar Araujo"
@@ -525,8 +528,8 @@ export default function Team() {
                         <p className="text-center">Data Science, Economics </p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Oscar Araujo</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Project Manager</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Oscar Araujo</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Project Manager</p>
                     <Link href="http://www.linkedin.com/in/oscara-raujo" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -534,7 +537,7 @@ export default function Team() {
 
                   {/* Reya Puri */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/reya-puri-headshot.jpeg"
                         alt="Reya Puri"
@@ -547,8 +550,8 @@ export default function Team() {
                         <p className="text-center">Data Science</p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Reya Puri</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Project Manager</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Reya Puri</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Project Manager</p>
                     <Link href="https://www.linkedin.com/in/reyapuri" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -556,7 +559,7 @@ export default function Team() {
 
                   {/* Yash Chitambar */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/yash-chitambar-headshot.jpeg"
                         alt="Yash Chitambar"
@@ -569,8 +572,8 @@ export default function Team() {
                         <p className="text-center">Computer Science, Data Science </p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Yash Chitambar</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Project Manager</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Yash Chitambar</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Project Manager</p>
                     <Link
                       href="https://www.linkedin.com/in/yash-chitambar-b3139829a/"
                       target="_blank"
@@ -582,10 +585,10 @@ export default function Team() {
                 </div>
 
                 {/* Regular Consultants - First Row */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12 max-w-6xl mx-auto">
+                <div className="grid grid-cols-4 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto justify-items-center">
                   {/* Samantha Gin */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 rounded-lg mx-auto mb-4 overflow-hidden relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 rounded-lg mx-auto mb-2 md:mb-4 overflow-hidden relative">
                       <Image
                         src="/images/sam-gin-headshot.jpeg"
                         alt="Samantha Gin"
@@ -598,8 +601,8 @@ export default function Team() {
                         <p className="text-center">Economics, Data Science </p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Samantha Gin</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Samantha Gin</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link href="https://www.linkedin.com/in/samanthagin/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -607,7 +610,7 @@ export default function Team() {
 
                   {/* Tony Getsin */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 rounded-lg mx-auto mb-4 overflow-hidden relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 rounded-lg mx-auto mb-2 md:mb-4 overflow-hidden relative">
                       <Image
                         src="/images/tony-getsin-headshot.png"
                         alt="Tony Getsin"
@@ -620,8 +623,8 @@ export default function Team() {
                         <p className="text-center">Data Science, Cognitive Science </p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Tony Getsin</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Tony Getsin</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link href="https://www.linkedin.com/in/tonygetsin/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -629,7 +632,7 @@ export default function Team() {
 
                   {/* Julia Shvartsman */}
                   <div className="text-center">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg">
                       <Image
                         src="/images/julia-shvartsman-headshot.jpeg"
                         alt="Julia Shvartsman"
@@ -638,8 +641,8 @@ export default function Team() {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Julia Shvartsman</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Julia Shvartsman</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link
                       href="https://www.linkedin.com/in/julia-shvartsman-4a89692ab/"
                       target="_blank"
@@ -651,7 +654,7 @@ export default function Team() {
 
                   {/* Viktor Gonzalez */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 rounded-lg mx-auto mb-4 overflow-hidden relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 rounded-lg mx-auto mb-2 md:mb-4 overflow-hidden relative">
                       <Image
                         src="/images/viktor-gonzalez-headshot.png"
                         alt="Viktor Gonzalez"
@@ -664,8 +667,8 @@ export default function Team() {
                         <p className="text-center">Data Science</p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Viktor Gonzalez</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Viktor Gonzalez</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link
                       href="https://www.linkedin.com/in/viktor-gonzalez-ab974a343/"
                       target="_blank"
@@ -677,10 +680,10 @@ export default function Team() {
                 </div>
 
                 {/* Regular Consultants - Second Row */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12 max-w-6xl mx-auto">
+                <div className="grid grid-cols-4 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto justify-items-center">
                   {/* Dhruv Hebbar (also consultant) */}
                   <div className="text-center">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg">
                       <Image
                         src="/images/dhruv-hebbar-headshot.jpeg"
                         alt="Dhruv Hebbar"
@@ -689,8 +692,8 @@ export default function Team() {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Dhruv Hebbar</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Dhruv Hebbar</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link href="http://www.linkedin.com/in/dhruvhebbar" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -698,7 +701,7 @@ export default function Team() {
 
                   {/* Kathy Yun */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 rounded-lg mx-auto mb-4 overflow-hidden relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 rounded-lg mx-auto mb-2 md:mb-4 overflow-hidden relative">
                       <Image
                         src="/images/kathy-yun-headshot.png"
                         alt="Kathy Yun"
@@ -711,8 +714,8 @@ export default function Team() {
                         <p className="text-center">Data Science</p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Kathy Yun</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Kathy Yun</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link
                       href="https://www.linkedin.com/in/kathy-yun-2b4128314/"
                       target="_blank"
@@ -724,7 +727,7 @@ export default function Team() {
 
                   {/* Himani Balaga */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/himani-balaga-headshot.png"
                         alt="Himani Balaga"
@@ -737,8 +740,8 @@ export default function Team() {
                         <p className="text-center">Data Science</p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Himani Balaga</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Himani Balaga</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link href="https://www.linkedin.com/in/himani-balaga/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -746,7 +749,7 @@ export default function Team() {
 
                   {/* Arjun Kelkar */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 rounded-lg mx-auto mb-4 overflow-hidden relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 rounded-lg mx-auto mb-2 md:mb-4 overflow-hidden relative">
                       <Image
                         src="/images/arjun-kelkar-headshot.png"
                         alt="Arjun Kelkar"
@@ -759,8 +762,8 @@ export default function Team() {
                         <p className="text-center">Data Science, Economics </p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Arjun Kelkar</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Arjun Kelkar</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link
                       href="https://www.linkedin.com/in/arjun-kelkar-924598350/"
                       target="_blank"
@@ -772,10 +775,10 @@ export default function Team() {
                 </div>
 
                 {/* Regular Consultants - Third Row */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12 max-w-6xl mx-auto">
+                <div className="grid grid-cols-4 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto justify-items-center">
                   {/* Ajay Kankipati */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 object-cover rounded-lg mx-auto mb-4 overflow-hidden relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 object-cover rounded-lg mx-auto mb-2 md:mb-4 overflow-hidden relative">
                       <Image
                         src="/images/ajay-kankipati-headshot.png"
                         alt="Ajay Kankipati"
@@ -788,8 +791,8 @@ export default function Team() {
                         <p className="text-center">Data Science</p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Ajay Kankipati</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Ajay Kankipati</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link
                       href="https://www.linkedin.com/in/ajay-kankipati-86895b271/"
                       target="_blank"
@@ -801,7 +804,7 @@ export default function Team() {
 
                   {/* Kruna Masic */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 object-cover rounded-lg mx-auto mb-4 overflow-hidden relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 object-cover rounded-lg mx-auto mb-2 md:mb-4 overflow-hidden relative">
                       <Image
                         src="/images/kruna-masic-headshot.png"
                         alt="Kruna Masic"
@@ -814,8 +817,8 @@ export default function Team() {
                         <p className="text-center">Statistics</p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Kruna Masic</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Kruna Masic</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link href="https://www.linkedin.com/in/kruna-masic/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -823,7 +826,7 @@ export default function Team() {
 
                   {/* Nikhil Rajgopal (also consultant) */}
                   <div className="text-center">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg">
                       <Image
                         src="/images/nikhil-rajgopal-headshot.jpeg"
                         alt="Nikhil Rajgopal"
@@ -832,8 +835,8 @@ export default function Team() {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Nikhil Rajgopal</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Nikhil Rajgopal</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link
                       href="http://www.linkedin.com/in/nikhil-rajgopal-7051b51b6"
                       target="_blank"
@@ -845,7 +848,7 @@ export default function Team() {
 
                   {/* Shaivi Shah (also consultant) */}
                   <div className="text-center">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg">
                       <Image
                         src="/images/shaivi-shah-headshot.jpeg"
                         alt="Shaivi Shah"
@@ -854,8 +857,8 @@ export default function Team() {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Shaivi Shah</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Shaivi Shah</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link
                       href="https://www.linkedin.com/in/shaivi-shah-6b9b30305/"
                       target="_blank"
@@ -867,10 +870,10 @@ export default function Team() {
                 </div>
 
                 {/* Regular Consultants - Fourth Row */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div className="grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-8 mb-12 max-w-5xl mx-auto justify-items-center">
                   {/* Rayan Sudeora */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/rayan-sudeora-headshot.png"
                         alt="Rayan Sudeora"
@@ -883,8 +886,8 @@ export default function Team() {
                         <p className="text-center">Data Science, Cognitive Science </p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Rayan Sudeora</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Rayan Sudeora</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link href="https://www.linkedin.com/in/rayansudeora/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -892,7 +895,7 @@ export default function Team() {
 
                   {/* Riley Hansen */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 rounded-lg mx-auto mb-4 overflow-hidden relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 rounded-lg mx-auto mb-2 md:mb-4 overflow-hidden relative">
                       <Image
                         src="/images/riley-hansen-headshot.png"
                         alt="Riley Hansen"
@@ -905,8 +908,8 @@ export default function Team() {
                         <p className="text-center">Data Science</p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Riley Hansen</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Riley Hansen</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link href="https://www.linkedin.com/in/riley-hansenn/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -914,7 +917,7 @@ export default function Team() {
 
                   {/* Hasset Mekuria (also consultant) */}
                   <div className="text-center">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg">
                       <Image
                         src="/images/hasset-mekuria-headshot.jpeg"
                         alt="Hasset Mekuria"
@@ -923,8 +926,8 @@ export default function Team() {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Hasset Mekuria</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Consultant</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Hasset Mekuria</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link
                       href="http://www.linkedin.com/in/hasset-mekuria-2189b8271"
                       target="_blank"
@@ -945,10 +948,10 @@ export default function Team() {
                 </h2>
 
                 {/* Behavioral Leads */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-4xl mx-auto">
+                <div className="grid grid-cols-2 md:grid-cols-2 gap-4 md:gap-8 mb-12 max-w-4xl mx-auto">
                   {/* Piya Shah */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/piya-shah-headshot.jpeg"
                         alt="Piya Shah"
@@ -961,8 +964,8 @@ export default function Team() {
                         <p className="text-center">Data Science, Statistics </p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Piya Shah</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Behavioral Lead</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Piya Shah</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Behavioral Lead</p>
                     <Link href="https://www.linkedin.com/in/piya-shahh/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -970,7 +973,7 @@ export default function Team() {
 
                   {/* Katelyn Jo */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/katelyn-jo-headshot.jpeg"
                         alt="Katelyn Jo"
@@ -983,8 +986,8 @@ export default function Team() {
                         <p className="text-center">Data Science, Cognitive Science </p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Katelyn Jo</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Behavioral Lead</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Katelyn Jo</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Behavioral Lead</p>
                     <Link href="https://www.linkedin.com/in/katelyn-jo/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
@@ -992,10 +995,10 @@ export default function Team() {
                 </div>
 
                 {/* Technical Leads */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div className="grid grid-cols-2 md:grid-cols-2 gap-4 md:gap-8 mb-12 max-w-4xl mx-auto">
                   {/* Sara Miller */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/sara-miller-headshot.jpeg"
                         alt="Sara Miller"
@@ -1008,8 +1011,8 @@ export default function Team() {
                         <p className="text-center">Computer Science, Data Science</p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Sara Miller</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Technical Lead</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Sara Miller</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Technical Lead</p>
                     <Link
                       href="https://www.linkedin.com/in/sara-jade-miller/"
                       target="_blank"
@@ -1021,7 +1024,7 @@ export default function Team() {
 
                   {/* Anshul Verma */}
                   <div className="text-center group relative">
-                    <div className="w-32 h-40 mx-auto mb-4 overflow-hidden rounded-lg relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/anshul-verma-headshot.png"
                         alt="Anshul Verma"
@@ -1034,8 +1037,8 @@ export default function Team() {
                         <p className="text-center"> Computer Science</p>
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold text-[#eee1c6] mb-1">Anshul Verma</h3>
-                    <p className="text-[#eee1c6] italic mb-2">Technical Lead</p>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Anshul Verma</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Technical Lead</p>
                     <Link
                       href="https://www.linkedin.com/in/anshul-verma-b5b5b5b5/"
                       target="_blank"
@@ -1052,9 +1055,9 @@ export default function Team() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white py-12 border-t">
-        <div className="container">
-          <div className="grid md:grid-cols-4 gap-8">
+      <footer className="bg-white py-8 md:py-12 border-t">
+        <div className="container mx-auto px-4 md:px-0">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8">
             <div className="md:col-span-2">
               <h3 className="text-xl font-bold mb-4 text-[#023020]">DataStory at Berkeley</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
@@ -1079,9 +1082,15 @@ export default function Team() {
                 </Link>
                 <Link
                   href="/team"
-                  className="block bg-[#023020] text-white px-3 py-1 text-sm rounded hover:bg-[#023020]/80 transition-colors"
+                  className="block bg-[#eee1c6] text-[#023020] px-3 py-1 text-sm rounded"
                 >
                   Our Team
+                </Link>
+                <Link
+                  href="/apply"
+                  className="block bg-[#023020] text-white px-3 py-1 text-sm rounded hover:bg-[#023020]/80 transition-colors"
+                >
+                  Apply Now
                 </Link>
                 <Link
                   href="/contact"

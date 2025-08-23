@@ -19,6 +19,7 @@ export function MobileNav({ currentPage }: MobileNavProps) {
     { href: "/projects", label: "Projects" },
     { href: "/development", label: "Development" },
     { href: "/team", label: "Our Team" },
+    { href: "/apply", label: "Apply Now" },
     { href: "/contact", label: "Contact" },
   ]
 

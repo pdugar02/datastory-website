@@ -1,7 +1,7 @@
-import Image from "next/image"
-import Link from "next/link"
 import { Mail, Linkedin, Instagram } from "lucide-react"
 import { MobileNav } from "@/components/mobile-nav"
+import Image from "next/image"
+import Link from "next/link"
 
 export default function About() {
   return (
@@ -40,6 +40,9 @@ export default function About() {
             <Link href="/team" className="text-sm font-medium hover:text-white">
               Our Team
             </Link>
+            <Link href="/apply" className="text-sm font-medium hover:text-white">
+              Apply Now
+            </Link>
             <Link href="/contact" className="text-sm font-medium hover:text-white">
               Contact
             </Link>
@@ -69,14 +72,71 @@ export default function About() {
         <section className="py-16 bg-[#023020] relative">
           <div className="container mx-auto px-4">
             <div className="relative z-10 max-w-6xl mx-auto">
-              <Image
-                src="/images/about-vision-impact-evolution.png"
-                alt="DataStory Vision, Impact, and Evolution sections with team photos"
-                width={1200}
-                height={900}
-                className="w-full h-auto object-contain object-center mx-auto"
-                priority
-              />
+              
+              {/* Desktop Layout - Original Single Image */}
+              <div className="hidden lg:block">
+                <Image
+                  src="/images/about-vision-impact-evolution.png"
+                  alt="DataStory Vision, Impact, and Evolution sections with team photos"
+                  width={1200}
+                  height={900}
+                  className="w-full h-auto object-contain object-center mx-auto"
+                  priority
+                />
+              </div>
+
+              {/* Mobile Layout - Individual Sections with Larger Text */}
+              <div className="lg:hidden space-y-12">
+                
+                {/* Vision Section */}
+                <div className="flex flex-col items-center gap-6">
+                  <h3 className="text-3xl font-bold text-white mb-4">Vision</h3>
+                  <p className="text-lg text-white leading-relaxed text-center">
+                    DataStory was founded to empower students with the knowledge, skills, and practical experience necessary to tackle complex real-world challenges through the application of data science. We strive to foster a collaborative and inclusive environment that encourages innovation, professional growth, and societal impact, aiming to put our members on a successful path post-grad.
+                  </p>
+                  <Image
+                    src="/images/vision%20new.png"
+                    alt="DataStory team members representing our vision"
+                    width={400}
+                    height={300}
+                    className="w-full max-w-sm h-auto object-cover object-center rounded-lg"
+                    priority
+                  />
+                </div>
+
+                {/* Impact Section */}
+                <div className="flex flex-col items-center gap-6">
+                  <h3 className="text-3xl font-bold text-white mb-4">Impact</h3>
+                  <p className="text-lg text-white leading-relaxed text-center">
+                    Our projects are focused on creating value for startups, non-profits, and corporations in various fields, including data analytics, software development, machine learning, marketing, and more. We are experienced in tackling a wide range of data-related problems as well as providing solutions to help shape a company's future.
+                  </p>
+                  <Image
+                    src="/images/impact%20new.png"
+                    alt="DataStory team members representing our impact"
+                    width={400}
+                    height={300}
+                    className="w-full max-w-sm h-auto object-cover object-center rounded-lg"
+                    priority
+                  />
+                </div>
+
+                {/* Evolution Section */}
+                <div className="flex flex-col items-center gap-6">
+                  <h3 className="text-3xl font-bold text-white mb-4">Evolution</h3>
+                  <p className="text-lg text-white leading-relaxed text-center">
+                    Through our Junior Consultant program, we help develop our new members' technical consulting skillset via weekly lessons on data science techniques and industry practices. Additionally, we host professional workshops, case competitions, speaker panels, and alumni events in order to provide our members with diverse opportunities to grow.
+                  </p>
+                  <Image
+                    src="/images/evolution%20new.png"
+                    alt="DataStory team members representing our evolution"
+                    width={400}
+                    height={300}
+                    className="w-full max-w-sm h-auto object-cover object-center rounded-lg"
+                    priority
+                  />
+                </div>
+
+              </div>
             </div>
           </div>
         </section>
@@ -131,6 +191,12 @@ export default function About() {
                   className="block bg-[#023020] text-white px-3 py-1 text-sm rounded hover:bg-[#023020]/80 transition-colors"
                 >
                   Our Team
+                </Link>
+                <Link
+                  href="/apply"
+                  className="block bg-[#023020] text-white px-3 py-1 text-sm rounded hover:bg-[#023020]/80 transition-colors"
+                >
+                  Apply Now
                 </Link>
                 <Link
                   href="/contact"

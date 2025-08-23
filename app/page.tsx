@@ -88,6 +88,9 @@ export default function Home() {
             <Link href="/team" className="text-sm font-medium hover:text-white">
               Our Team
             </Link>
+            <Link href="/apply" className="text-sm font-medium hover:text-white">
+              Apply Now
+            </Link>
             <Link href="/contact" className="text-sm font-medium hover:text-white">
               Contact
             </Link>
@@ -297,6 +300,12 @@ export default function Home() {
                   className="block bg-[#023020] text-white px-3 py-2 text-sm rounded hover:bg-[#023020]/80"
                 >
                   Our Team
+                </Link>
+                <Link
+                  href="/apply"
+                  className="block bg-[#023020] text-white px-3 py-2 text-sm rounded hover:bg-[#023020]/80"
+                >
+                  Apply Now
                 </Link>
                 <Link
                   href="/contact"
