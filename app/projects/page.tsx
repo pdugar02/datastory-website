@@ -238,10 +238,10 @@ export default function ProjectsPage() {
               </div>
               <div className="flex-1">
                 <blockquote className="text-lg text-gray-600 italic mb-4 leading-relaxed">
-                  "Each of the customer-facing consultants were professional and mature beyond their years. The team was
+                  &ldquo;Each of the customer-facing consultants were professional and mature beyond their years. The team was
                   adaptable to various challenges and scope adjustments necessitated by the project and ultimately
                   delivered several PowerBI dashboards that will have ongoing value to Good360. I would definitely
-                  recommend the Berkeley Data Story team for supplemental BI and Data Science projects."
+                  recommend the Berkeley Data Story team for supplemental BI and Data Science projects.&rdquo;
                 </blockquote>
                 <cite className="text-base text-gray-500 font-medium">
                   - Kniffen Kelly, Sr. Director of Business Intelligence Center of Excellence at Good 360
