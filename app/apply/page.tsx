@@ -43,9 +43,9 @@ export default function Apply() {
         {/* Hero Section */}
         <section className="py-16 bg-[#023020]">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-5xl md:text-7xl font-bold text-[#eee1c6] mb-8">Fall 2025 Coffee Chats</h1>
+            <h1 className="text-5xl md:text-7xl font-bold text-[#eee1c6] mb-8">Apply Now</h1>
             <p className="text-xl md:text-2xl text-[#eee1c6] mb-12">
-              Sign up for a coffee chat to learn more about DataStory
+              Join DataStory and become part of our data science consulting team
             </p>
           </div>
         </section>
@@ -54,7 +54,7 @@ export default function Apply() {
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-3xl font-bold text-[#023020] mb-8 text-center">Coffee Chat Sign-up</h2>
+              <h2 className="text-3xl font-bold text-[#023020] mb-8 text-center">Fall 2025 Coffee Chats</h2>
               <div className="w-full">
                 <iframe 
                   className="airtable-embed w-full border-0 rounded-lg shadow-md" 
@@ -66,6 +66,26 @@ export default function Apply() {
                   title="DataStory Application Form"
                 />
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Application Link Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl font-bold text-[#023020] mb-8">Application Link</h2>
+            <div className="max-w-2xl mx-auto">
+              <a 
+                href="https://forms.gle/n66HToZwhyN6yrWLA" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block bg-[#023020] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#034a2a] transition-colors duration-200 shadow-lg"
+              >
+                Apply via Google Forms
+              </a>
+              <p className="text-gray-600 mt-4">
+                Click the button above to access our official application form
+              </p>
             </div>
           </div>
         </section>
