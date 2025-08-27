@@ -39,11 +39,36 @@ export default function Apply() {
         </div>
       </header>
 
-      <main className="flex-1 flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-6xl md:text-8xl font-bold text-[#023020] mb-8">Apply Now</h1>
-          <p className="text-2xl md:text-4xl text-gray-600">Coming Soon...</p>
-        </div>
+      <main className="flex-1">
+        {/* Hero Section */}
+        <section className="py-16 bg-[#023020]">
+          <div className="container mx-auto px-4 text-center">
+            <h1 className="text-5xl md:text-7xl font-bold text-[#eee1c6] mb-8">Fall 2025 Coffee Chats</h1>
+            <p className="text-xl md:text-2xl text-[#eee1c6] mb-12">
+              Sign up for a coffee chat to learn more about DataStory
+            </p>
+          </div>
+        </section>
+
+        {/* Application Form Section */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <div className="bg-white rounded-lg shadow-lg p-8">
+              <h2 className="text-3xl font-bold text-[#023020] mb-8 text-center">Coffee Chat Sign-up</h2>
+              <div className="w-full">
+                <iframe 
+                  className="airtable-embed w-full border-0 rounded-lg shadow-md" 
+                  src="https://airtable.com/embed/app9wdEXC9rZ8cVzJ/shr6Pm0OtBMVoSG4U" 
+                  frameBorder="0" 
+                  width="100%" 
+                  height="533" 
+                  style={{ background: 'transparent' }}
+                  title="DataStory Application Form"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       {/* Footer */}
