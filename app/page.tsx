@@ -52,7 +52,7 @@ export default function Home() {
   useEffect(() => {
     const interval = setInterval(nextSlide, 5000)
     return () => clearInterval(interval)
-  }, [])
+  }, [nextSlide])
 
   return (
     <div className="flex min-h-screen flex-col">

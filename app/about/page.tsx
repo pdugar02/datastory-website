@@ -108,7 +108,7 @@ export default function About() {
                 <div className="flex flex-col items-center gap-6">
                   <h3 className="text-3xl font-bold text-white mb-4">Impact</h3>
                   <p className="text-lg text-white leading-relaxed text-center">
-                    Our projects are focused on creating value for startups, non-profits, and corporations in various fields, including data analytics, software development, machine learning, marketing, and more. We are experienced in tackling a wide range of data-related problems as well as providing solutions to help shape a company's future.
+                    Our projects are focused on creating value for startups, non-profits, and corporations in various fields, including data analytics, software development, machine learning, marketing, and more. We are experienced in tackling a wide range of data-related problems as well as providing solutions to help shape a company&apos;s future.
                   </p>
                   <Image
                     src="/images/impact%20new.png"
@@ -124,7 +124,7 @@ export default function About() {
                 <div className="flex flex-col items-center gap-6">
                   <h3 className="text-3xl font-bold text-white mb-4">Evolution</h3>
                   <p className="text-lg text-white leading-relaxed text-center">
-                    Through our Junior Consultant program, we help develop our new members' technical consulting skillset via weekly lessons on data science techniques and industry practices. Additionally, we host professional workshops, case competitions, speaker panels, and alumni events in order to provide our members with diverse opportunities to grow.
+                    Through our Junior Consultant program, we help develop our new members&apos; technical consulting skillset via weekly lessons on data science techniques and industry practices. Additionally, we host professional workshops, case competitions, speaker panels, and alumni events in order to provide our members with diverse opportunities to grow.
                   </p>
                   <Image
                     src="/images/evolution%20new.png"
