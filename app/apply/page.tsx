@@ -58,7 +58,7 @@ export default function Apply() {
               <div className="w-full">
                 <iframe 
                   className="airtable-embed w-full border-0 rounded-lg shadow-md" 
-                  src="https://airtable.com/embed/app9wdEXC9rZ8cVzJ/shr6Pm0OtBMVoSG4U" 
+                  src="https://airtable.com/embed/appvUWyLHCreiz8UF/shrbB27qqv1yu58ot?viewControls=on" 
                   frameBorder="0" 
                   width="100%" 
                   height="533" 
