@@ -161,7 +161,7 @@ export default function Home() {
         {/* WHAT WE OFFER Section */}
         <section className="py-8 md:py-16 bg-[#023020] text-white">
           <div className="container mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-[#eee1c6]">WHAT WE DO</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-[#eee1c6]">WHAT WE OFFER</h2>
             <div className="relative max-w-6xl mx-auto">
               {/* Navigation arrows */}
               <button
