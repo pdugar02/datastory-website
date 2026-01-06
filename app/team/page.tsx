@@ -280,7 +280,7 @@ export default function Team() {
             </div>
 
             {/* Third Row - Directors */}
-            <div className="grid grid-cols-4 md:grid-cols-3 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto">
+            <div className="grid grid-cols-4 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto">
               {/* Tony Getsin - Dir. of Jr Consultants */}
               <div className="text-center group relative">
                 <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
@@ -350,10 +350,7 @@ export default function Team() {
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
               </div>
-            </div>
 
-            {/* Fourth Row - Junior VPs */}
-            <div className="grid grid-cols-4 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto">
               {/* Cathryn Chang - Jr VP of Operations */}
               <div className="text-center group relative">
                 <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
@@ -379,6 +376,10 @@ export default function Team() {
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
               </div>
+            </div>
+
+            {/* Fourth Row - Junior VPs */}
+            <div className="grid grid-cols-4 md:grid-cols-3 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto">
 
               {/* Chiara Rignot - Jr External VP */}
               <div className="text-center group relative">
@@ -693,8 +694,8 @@ export default function Team() {
                   </div>
 
                   {/* Julia Shvartsman */}
-                  <div className="text-center">
-                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg">
+                  <div className="text-center group relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/julia-shvartsman-headshot.jpeg"
                         alt="Julia Shvartsman"
@@ -702,6 +703,10 @@ export default function Team() {
                         height={160}
                         className="w-full h-full object-cover"
                       />
+                      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-sm p-2">
+                        <p className="font-semibold">Sophomore</p>
+                        <p className="text-center">Data Science</p>
+                      </div>
                     </div>
                     <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Julia Shvartsman</h3>
                     <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
