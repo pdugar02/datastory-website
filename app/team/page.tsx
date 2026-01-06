@@ -1055,7 +1055,13 @@ export default function Team() {
                   {/* Cole Dickerson */}
                   <div className="text-center group relative">
                     <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
-                      <Image src="/placeholder.svg" alt="Cole Dickerson" fill className="object-cover" />
+                      <Image
+                        src="/images/cole-dickerson-headshot.jpeg"
+                        alt="Cole Dickerson"
+                        width={128}
+                        height={160}
+                        className="w-full h-full object-cover"
+                      />
                       <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-sm p-2">
                         <p className="font-semibold">Sophomore</p>
                         <p className="text-center">Data Science</p>

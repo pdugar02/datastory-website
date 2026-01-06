@@ -161,7 +161,7 @@ export default function Apply() {
                   <Linkedin className="h-5 w-5 text-[#023020] cursor-pointer hover:text-[#023020]/70" />
                 </Link>
                 <Link href="https://www.instagram.com/datastoryberkeley/" target="_blank" rel="noopener noreferrer">
-                  <Instagram className="h-5 w-5 text-[#eee1c6] cursor-pointer hover:text-[#eee1c6]/70" />
+                  <Instagram className="h-5 w-5 text-[#023020] cursor-pointer hover:text-[#023020]/70" />
                 </Link>
               </div>
             </div>
