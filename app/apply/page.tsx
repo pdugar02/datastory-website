@@ -54,7 +54,7 @@ export default function Apply() {
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-3xl font-bold text-[#023020] mb-8 text-center">Fall 2025 Coffee Chats</h2>
+              <h2 className="text-3xl font-bold text-[#023020] mb-8 text-center">Spring 2026 Coffee Chats</h2>
               <div className="w-full">
                 <iframe 
                   className="airtable-embed w-full border-0 rounded-lg shadow-md" 

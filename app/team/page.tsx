@@ -101,50 +101,50 @@ export default function Team() {
                 </Link>
               </div>
 
-              {/* Pulak Dugar - External VP */}
+              {/* Hasset Mekuria - External VP */}
               <div className="text-center group relative">
                 <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
-                    src="/images/pulak-dugar-headshot.jpeg"
-                    alt="Pulak Dugar"
+                    src="/images/hasset-mekuria-headshot.jpeg"
+                    alt="Hasset Mekuria"
                     width={128}
                     height={160}
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
-                    <p className="font-semibold">Senior</p>
-                    <p className="text-center">Computer Science</p>
+                    <p className="font-semibold">Sophomore</p>
+                    <p className="text-center">Data Science, Political Science </p>
                   </div>
                 </div>
-                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Pulak Dugar</h3>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Hasset Mekuria</h3>
                 <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">External VP</p>
-                <Link href="https://www.linkedin.com/in/pulak-dugar/" target="_blank" rel="noopener noreferrer">
+                <Link
+                  href="https://www.linkedin.com/in/hasset-mekuria-2189b8271"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
               </div>
 
-              {/* Mason Borgerding - Co-Internal VP */}
+              {/* Shaivi Shah - Co-Internal VP */}
               <div className="text-center group relative">
                 <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
-                    src="/images/mason-borgerding-headshot.jpeg"
-                    alt="Mason Borgerding"
+                    src="/images/shaivi-shah-headshot.jpeg"
+                    alt="Shaivi Shah"
                     width={128}
                     height={160}
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
                     <p className="font-semibold">Junior</p>
-                    <p className="text-center">Analytics</p>
+                    <p className="text-center">Data Science</p>
                   </div>
                 </div>
-                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Mason Borgerding</h3>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Shaivi Shah</h3>
                 <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Co-Internal VP</p>
-                <Link
-                  href="http://www.linkedin.com/in/mason-borgerding-52a117277"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link href="http://www.linkedin.com/in/shaivi-shah-6b9b30305" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
               </div>
@@ -161,7 +161,7 @@ export default function Team() {
                   />
                   <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
                     <p className="font-semibold">Sophomore</p>
-                    <p className="text-center">Economics</p>
+                    <p className="text-center">Data Science, Economics</p>
                   </div>
                 </div>
                 <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Nikhil Rajgopal</h3>
@@ -178,12 +178,38 @@ export default function Team() {
 
             {/* Second Row - VPs */}
             <div className="grid grid-cols-4 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto">
-              {/* Avyukth Harish - VP of Projects */}
+              {/* Yash Chitambar - VP of Projects */}
               <div className="text-center group relative">
                 <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
-                    src="/images/avy headshot copy.jpg"
-                    alt="Avyukth Harish"
+                    src="/images/yash-chitambar-headshot.jpeg"
+                    alt="Yash Chitambar"
+                    width={128}
+                    height={160}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
+                    <p className="font-semibold">Sophomore</p>
+                    <p className="text-center">Computer Science, Data Science </p>
+                  </div>
+                </div>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Yash Chitambar</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">VP of Projects</p>
+                <Link
+                  href="https://www.linkedin.com/in/yash-chitambar-b3139829a/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                </Link>
+              </div>
+
+              {/* Ajay Kankipati - VP of Projects */}
+              <div className="text-center group relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                  <Image
+                    src="/images/ajay-kankipati-headshot.png"
+                    alt="Ajay Kankipati"
                     width={128}
                     height={160}
                     className="w-full h-full object-cover"
@@ -193,150 +219,18 @@ export default function Team() {
                     <p className="text-center">Data Science</p>
                   </div>
                 </div>
-                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Avyukth Harish</h3>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Ajay Kankipati</h3>
                 <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">VP of Projects</p>
-                <Link href="http://linkedin.com/in/avy-harish" target="_blank" rel="noopener noreferrer">
+                <Link
+                  href="https://www.linkedin.com/in/ajay-kankipati-86895b271/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
               </div>
 
-              {/* Jack White - VP of Projects */}
-              <div className="text-center group relative">
-                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
-                  <Image
-                    src="/images/jack-white-headshot.jpeg"
-                    alt="Jack White"
-                    width={128}
-                    height={160}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
-                    <p className="font-semibold">Senior</p>
-                    <p className="text-center">Data Science</p>
-                  </div>
-                </div>
-                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Jack White</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">VP of Projects</p>
-                <Link href="http://www.linkedin.com/in/jack-white-568761272" target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
-                </Link>
-              </div>
-
-              {/* Shaivi Shah - VP of Operations */}
-              <div className="text-center group relative">
-                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
-                  <Image
-                    src="/images/shaivi-shah-headshot.jpeg"
-                    alt="Shaivi Shah"
-                    width={128}
-                    height={160}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
-                    <p className="font-semibold">Junior</p>
-                    <p className="text-center">Data Science</p>
-                  </div>
-                </div>
-                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Shaivi Shah</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">VP of Operations</p>
-                <Link href="http://www.linkedin.com/in/shaivi-shah-6b9b30305" target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
-                </Link>
-              </div>
-
-              {/* Kayle Marsh - VP of Professional Development */}
-              <div className="text-center group relative">
-                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
-                  <Image
-                    src="/images/kayle-marsh-headshot.jpeg"
-                    alt="Kayle Marsh"
-                    width={128}
-                    height={160}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
-                    <p className="font-semibold">Senior</p>
-                    <p className="text-center">Computer Science</p>
-                  </div>
-                </div>
-                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Kayle Marsh</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">VP of Professional Development</p>
-                <Link href="http://www.linkedin.com/in/kaylemarsh" target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
-                </Link>
-              </div>
-            </div>
-
-            {/* Third Row - Directors */}
-            <div className="grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-8 mb-12 max-w-4xl mx-auto">
-              {/* Kirin Desai - Dir. of Jr Consultants */}
-              <div className="text-center group relative">
-                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
-                  <Image
-                    src="/images/kirin-desai-headshot.jpeg"
-                    alt="Kirin Desai"
-                    width={128}
-                    height={160}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
-                    <p className="font-semibold">Junior</p>
-                    <p className="text-center">Data Science, Economics </p>
-                  </div>
-                </div>
-                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Kirin Desai</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Dir. of Jr Consultants</p>
-                <Link href="https://www.linkedin.com/in/kirin-desai/" target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
-                </Link>
-              </div>
-
-              <div className="text-center group relative">
-                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
-                  <Image
-                    src="/images/hannah-chung-headshot.jpeg"
-                    alt="Hannah Chung"
-                    width={128}
-                    height={160}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
-                    <p className="font-semibold">Junior</p>
-                    <p className="text-center">{"Statistics"}</p>
-                  </div>
-                </div>
-                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Hannah Chung</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Dir. of Jr Consultants</p>
-                <Link href="https://www.linkedin.com/in/hannah-chung/" target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
-                </Link>
-              </div>
-
-              <div className="text-center group relative">
-                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
-                  <Image
-                    src="/images/sam-gin-headshot.jpeg"
-                    alt="Sam Gin"
-                    width={128}
-                    height={160}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
-                    <p className="font-semibold">Junior</p>
-                    <p className="text-center">Economics, Data Science </p>
-                  </div>
-                </div>
-                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Sam Gin</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Dir. of Marketing</p>
-                <Link href="https://www.linkedin.com/in/sam-gin/" target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
-                </Link>
-              </div>
-            </div>
-
-            {/* Fourth Row - Junior VPs */}
-            <div className="grid grid-cols-2 md:grid-cols-2 gap-4 md:gap-8 mb-12 max-w-2xl mx-auto">
-              {/* Julia Shvartsman - Jr VP of Operations */}
+              {/* Julia Shvartsman - VP of Operations */}
               <div className="text-center group relative">
                 <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
@@ -352,7 +246,7 @@ export default function Team() {
                   </div>
                 </div>
                 <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Julia Shvartsman</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Jr VP of Operations</p>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">VP of Operations</p>
                 <Link
                   href="https://www.linkedin.com/in/julia-shvartsman-4a89692ab/"
                   target="_blank"
@@ -362,28 +256,196 @@ export default function Team() {
                 </Link>
               </div>
 
-              {/* Hasset Mekuria - Jr External VP */}
+              {/* Rayan Sudeora - VP of Professional Development */}
               <div className="text-center group relative">
                 <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
-                    src="/images/hasset-mekuria-headshot.jpeg"
-                    alt="Hasset Mekuria"
+                    src="/images/rayan-sudeora-headshot.png"
+                    alt="Rayan Sudeora"
+                    width={128}
+                    height={160}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
+                    <p className="font-semibold">Junior</p>
+                    <p className="text-center">Data Science, Cognitive Science </p>
+                  </div>
+                </div>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Rayan Sudeora</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">VP of Professional Development</p>
+                <Link href="https://www.linkedin.com/in/rayansudeora/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                </Link>
+              </div>
+            </div>
+
+            {/* Third Row - Directors */}
+            <div className="grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-8 mb-12 max-w-4xl mx-auto">
+              {/* Tony Getsin - Dir. of Jr Consultants */}
+              <div className="text-center group relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                  <Image
+                    src="/images/tony-getsin-headshot.png"
+                    alt="Tony Getsin"
                     width={128}
                     height={160}
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
                     <p className="font-semibold">Sophomore</p>
-                    <p className="text-center">Data Science, Political Science </p>
+                    <p className="text-center">Data Science, Computer Science </p>
                   </div>
                 </div>
-                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Hasset Mekuria</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Jr External VP</p>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Tony Getsin</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Dir. of Jr Consultants</p>
+                <Link href="https://www.linkedin.com/in/tonygetsin/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                </Link>
+              </div>
+
+              {/* Kathy Yun - Dir. of Jr Consultants */}
+              <div className="text-center group relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                  <Image
+                    src="/images/kathy-yun-headshot.png"
+                    alt="Kathy Yun"
+                    width={128}
+                    height={160}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
+                    <p className="font-semibold">Sophomore</p>
+                    <p className="text-center">Data Science</p>
+                  </div>
+                </div>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Kathy Yun</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Dir. of Jr Consultants</p>
                 <Link
-                  href="https://www.linkedin.com/in/hasset-mekuria-2189b8271"
+                  href="https://www.linkedin.com/in/kathy-yun-2b4128314/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                </Link>
+              </div>
+
+              {/* Kira Pan - Dir. of Marketing */}
+              <div className="text-center group relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                  <Image
+                    src="/images/kira-pan-headshot.jpg"
+                    alt="Kira Pan"
+                    width={128}
+                    height={160}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
+                    <p className="font-semibold">Sophomore</p>
+                    <p className="text-center">Cognitive Science</p>
+                  </div>
+                </div>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Kira Pan</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Dir. of Marketing</p>
+                <Link href="https://www.linkedin.com/in/kira-z-pan" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                </Link>
+              </div>
+            </div>
+
+            {/* Fourth Row - Junior VPs */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto">
+              {/* Cathryn Chang - Jr VP of Operations */}
+              <div className="text-center group relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                  <Image
+                    src="/images/cathryn-chang-headshot.jpg"
+                    alt="Cathryn Chang"
+                    width={128}
+                    height={160}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
+                    <p className="font-semibold">Sophomore</p>
+                    <p className="text-center">Computer Science, Data Science</p>
+                  </div>
+                </div>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Cathryn Chang</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Jr VP of Operations</p>
+                <Link
+                  href="https://www.linkedin.com/in/cathryn-chang/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                </Link>
+              </div>
+
+              {/* Chiara Rignot - Jr External VP */}
+              <div className="text-center group relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                  <Image
+                    src="/images/chiara-rignot-headshot.jpg"
+                    alt="Chiara Rignot"
+                    width={128}
+                    height={160}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
+                    <p className="font-semibold">Sophomore</p>
+                    <p className="text-center">Data Science, Philosophy</p>
+                  </div>
+                </div>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Chiara Rignot</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Jr External VP</p>
+                <Link
+                  href="https://www.linkedin.com/in/chiara-rignot1/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                </Link>
+              </div>
+
+              {/* Casey Colson - Jr Internal VP */}
+              <div className="text-center group relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                  <Image
+                    src="/images/casey-colson-headshot.JPEG"
+                    alt="Casey Colson"
+                    width={128}
+                    height={160}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
+                    <p className="font-semibold">Sophomore</p>
+                    <p className="text-center">Statistics</p>
+                  </div>
+                </div>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Casey Colson</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Jr Internal VP</p>
+                <Link href="https://www.linkedin.com/in/caseycolson/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                </Link>
+              </div>
+
+              {/* Vrushtee Shah - Jr Internal VP */}
+              <div className="text-center group relative">
+                <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                  <Image
+                    src="/images/vrushtee-shah-headshot.jpeg"
+                    alt="Vrushtee Shah"
+                    width={128}
+                    height={160}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white text-sm p-2">
+                    <p className="font-semibold">Sophomore</p>
+                    <p className="text-center">Data Science, Legal Studies</p>
+                  </div>
+                </div>
+                <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Vrushtee Shah</h3>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Jr Internal VP</p>
+                <Link href="https://www.linkedin.com/in/vrushteeshah13/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
               </div>
@@ -620,7 +682,7 @@ export default function Team() {
                       />
                       <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-sm p-2">
                         <p className="font-semibold">Sophomore</p>
-                        <p className="text-center">Data Science, Cognitive Science </p>
+                        <p className="text-center">Data Science, Computer Science </p>
                       </div>
                     </div>
                     <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Tony Getsin</h3>
@@ -825,8 +887,8 @@ export default function Team() {
                   </div>
 
                   {/* Nikhil Rajgopal (also consultant) */}
-                  <div className="text-center">
-                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg">
+                  <div className="text-center group relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/nikhil-rajgopal-headshot.jpeg"
                         alt="Nikhil Rajgopal"
@@ -834,6 +896,10 @@ export default function Team() {
                         height={160}
                         className="w-full h-full object-cover"
                       />
+                      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-sm p-2">
+                        <p className="font-semibold">Sophomore</p>
+                        <p className="text-center">Data Science, Economics</p>
+                      </div>
                     </div>
                     <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Nikhil Rajgopal</h3>
                     <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
@@ -847,8 +913,8 @@ export default function Team() {
                   </div>
 
                   {/* Shaivi Shah (also consultant) */}
-                  <div className="text-center">
-                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg">
+                  <div className="text-center group relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/shaivi-shah-headshot.jpeg"
                         alt="Shaivi Shah"
@@ -856,6 +922,10 @@ export default function Team() {
                         height={160}
                         className="w-full h-full object-cover"
                       />
+                      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-sm p-2">
+                        <p className="font-semibold">Junior</p>
+                        <p className="text-center">Data Science</p>
+                      </div>
                     </div>
                     <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Shaivi Shah</h3>
                     <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
@@ -870,7 +940,7 @@ export default function Team() {
                 </div>
 
                 {/* Regular Consultants - Fourth Row */}
-                <div className="grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-8 mb-12 max-w-5xl mx-auto justify-items-center">
+                <div className="grid grid-cols-3 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto justify-items-center">
                   {/* Rayan Sudeora */}
                   <div className="text-center group relative">
                     <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
@@ -916,8 +986,8 @@ export default function Team() {
                   </div>
 
                   {/* Hasset Mekuria (also consultant) */}
-                  <div className="text-center">
-                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg">
+                  <div className="text-center group relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/hasset-mekuria-headshot.jpeg"
                         alt="Hasset Mekuria"
@@ -925,6 +995,10 @@ export default function Team() {
                         height={160}
                         className="w-full h-full object-cover"
                       />
+                      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-sm p-2">
+                        <p className="font-semibold">Sophomore</p>
+                        <p className="text-center">Data Science, Political Science </p>
+                      </div>
                     </div>
                     <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Hasset Mekuria</h3>
                     <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
@@ -933,6 +1007,97 @@ export default function Team() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
+                      <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                    </Link>
+                  </div>
+
+                  {/* Kira Pan (also consultant) */}
+                  <div className="text-center group relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                      <Image
+                        src="/images/kira-pan-headshot.jpg"
+                        alt="Kira Pan"
+                        width={128}
+                        height={160}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-sm p-2">
+                        <p className="font-semibold">Sophomore</p>
+                        <p className="text-center">Cognitive Science</p>
+                      </div>
+                    </div>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Kira Pan</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
+                    <Link href="https://www.linkedin.com/in/kira-z-pan" target="_blank" rel="noopener noreferrer">
+                      <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Regular Consultants - Fifth Row */}
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 mb-12 max-w-5xl mx-auto justify-items-center">
+                  {/* Casey Colson (also consultant) */}
+                  <div className="text-center group relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                      <Image
+                        src="/images/casey-colson-headshot.JPEG"
+                        alt="Casey Colson"
+                        width={128}
+                        height={160}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-sm p-2">
+                        <p className="font-semibold">Sophomore</p>
+                        <p className="text-center">Statistics</p>
+                      </div>
+                    </div>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Casey Colson</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
+                    <Link href="https://www.linkedin.com/in/caseycolson/" target="_blank" rel="noopener noreferrer">
+                      <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                    </Link>
+                  </div>
+
+                  {/* Cathryn Chang (also consultant) */}
+                  <div className="text-center group relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                      <Image
+                        src="/images/cathryn-chang-headshot.jpg"
+                        alt="Cathryn Chang"
+                        width={128}
+                        height={160}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-sm p-2">
+                        <p className="font-semibold">Sophomore</p>
+                        <p className="text-center">Computer Science, Data Science</p>
+                      </div>
+                    </div>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Cathryn Chang</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
+                    <Link href="https://www.linkedin.com/in/cathryn-chang/" target="_blank" rel="noopener noreferrer">
+                      <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                    </Link>
+                  </div>
+
+                  {/* Vrushtee Shah (also consultant) */}
+                  <div className="text-center group relative">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                      <Image
+                        src="/images/vrushtee-shah-headshot.jpeg"
+                        alt="Vrushtee Shah"
+                        width={128}
+                        height={160}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-sm p-2">
+                        <p className="font-semibold">Sophomore</p>
+                        <p className="text-center">Data Science, Legal Studies</p>
+                      </div>
+                    </div>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Vrushtee Shah</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
+                    <Link href="https://www.linkedin.com/in/vrushteeshah13/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
                   </div>
