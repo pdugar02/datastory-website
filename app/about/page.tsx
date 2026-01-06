@@ -60,8 +60,8 @@ export default function About() {
             className="object-cover object-top"
             priority
           />
-          <div className="absolute inset-0 bg-black/20"></div>
-          <div className="absolute inset-0 flex items-start justify-center pt-16">
+          <div className="absolute inset-0 bg-[#023020] opacity-30"></div>
+          <div className="absolute inset-0 flex items-start justify-center pt-16 z-10">
             <h1 className="text-6xl md:text-8xl font-bold text-[#eee1c6] tracking-wider text-center px-4">
               WHO WE ARE
             </h1>

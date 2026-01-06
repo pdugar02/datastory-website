@@ -106,8 +106,8 @@ export default function Development() {
             className="object-cover object-center"
             priority
           />
-          <div className="absolute inset-0 bg-black/20"></div>
-          <div className="absolute inset-0 flex items-start justify-center pt-16 md:pt-20">
+          <div className="absolute inset-0 bg-[#023020] opacity-30"></div>
+          <div className="absolute inset-0 flex items-start justify-center pt-16 md:pt-20 z-10">
             <h1 className="text-6xl md:text-8xl font-bold text-center text-[#eee1c6] tracking-wider">HOW WE GROW</h1>
           </div>
         </section>

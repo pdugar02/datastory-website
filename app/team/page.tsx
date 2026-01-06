@@ -60,7 +60,8 @@ export default function Team() {
           backgroundPosition: "center 35%"
         }}
       >
-        <div className="absolute inset-0 flex flex-col justify-start items-center pt-12 md:pt-16">
+        <div className="absolute inset-0 bg-[#023020] opacity-30"></div>
+        <div className="absolute inset-0 flex flex-col justify-start items-center pt-12 md:pt-16 z-10">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#eee1c6] tracking-wider">MEET OUR MEMBERS</h1>
         </div>
       </section>

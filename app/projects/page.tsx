@@ -74,8 +74,8 @@ export default function ProjectsPage() {
           className="object-cover object-center"
           priority
         />
-        <div className="absolute inset-0 bg-black/20"></div>
-        <div className="absolute inset-0 flex items-start justify-center pt-8">
+        <div className="absolute inset-0 bg-[#023020] opacity-30"></div>
+        <div className="absolute inset-0 flex items-start justify-center pt-8 z-10">
           <h1 className="text-6xl md:text-8xl font-bold text-[#eee1c6] tracking-wider">OUR WORK</h1>
         </div>
       </section>

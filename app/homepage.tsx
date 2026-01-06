@@ -108,8 +108,8 @@ export default function Home() {
             className="object-cover object-center"
             priority
           />
-          <div className="absolute inset-0 bg-black/20"></div>
-          <div className="absolute inset-0 flex flex-col items-center justify-start pt-4 md:pt-2">
+          <div className="absolute inset-0 bg-[#023020] opacity-30"></div>
+          <div className="absolute inset-0 flex flex-col items-center justify-start pt-4 md:pt-2 z-10">
             <div className="text-center px-4">
               <Image
                 src="/images/datastory-logo.png"
