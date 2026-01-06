@@ -280,7 +280,7 @@ export default function Team() {
             </div>
 
             {/* Third Row - Directors */}
-            <div className="grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-8 mb-12 max-w-4xl mx-auto">
+            <div className="grid grid-cols-4 md:grid-cols-3 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto">
               {/* Tony Getsin - Dir. of Jr Consultants */}
               <div className="text-center group relative">
                 <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
@@ -353,7 +353,7 @@ export default function Team() {
             </div>
 
             {/* Fourth Row - Junior VPs */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto">
+            <div className="grid grid-cols-4 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto">
               {/* Cathryn Chang - Jr VP of Operations */}
               <div className="text-center group relative">
                 <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
@@ -940,7 +940,7 @@ export default function Team() {
                 </div>
 
                 {/* Regular Consultants - Fourth Row */}
-                <div className="grid grid-cols-3 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto justify-items-center">
+                <div className="grid grid-cols-4 md:grid-cols-4 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto justify-items-center">
                   {/* Rayan Sudeora */}
                   <div className="text-center group relative">
                     <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
@@ -1035,7 +1035,7 @@ export default function Team() {
                 </div>
 
                 {/* Regular Consultants - Fifth Row */}
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 mb-12 max-w-5xl mx-auto justify-items-center">
+                <div className="grid grid-cols-4 md:grid-cols-3 gap-4 md:gap-8 mb-12 max-w-6xl mx-auto justify-items-center">
                   {/* Casey Colson (also consultant) */}
                   <div className="text-center group relative">
                     <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
