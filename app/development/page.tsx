@@ -22,13 +22,13 @@ export default function Development() {
       image: "/images/graham-graduation-photo.png",
     },
     {
-      name: "AILEEN PERALTA",
-      graduatingClass: "Spring 2022",
-      position: "ML Software Engineer at General Motors",
-      location: "Austin, TX",
-      interests: "Hiking, binge watching shows, new plant owner",
-      impact: "Meeting new people and gaining new technical skills from working on the website and education team.",
-      image: "/images/aileen-professional-headshot.png",
+      name: "RYAN CHAN",
+      graduatingClass: "Spring 2025",
+      position: "Software Engineer at Meta",
+      location: "Menlo Park, CA",
+      impact:
+        "DataStory helped me improve my professional career tremendously. I remember for my first internship half their behavioral interview questions were about my experiences at DataStory. I learned a lot of professional advice and got tons of hands on experience from a variety of consulting projects.",
+      image: "/images/Ryan-chan-headshot.jpeg",
     },
   ]
 
@@ -329,9 +329,11 @@ export default function Development() {
                       <p>
                         <span className="font-semibold italic">Location:</span> {currentProfile.location}
                       </p>
-                      <p>
-                        <span className="font-semibold italic">Interests:</span> {currentProfile.interests}
-                      </p>
+                      {currentProfile.interests && (
+                        <p>
+                          <span className="font-semibold italic">Interests:</span> {currentProfile.interests}
+                        </p>
+                      )}
                       <p>
                         <span className="font-semibold italic">Most impactful moment in DataStory:</span>{" "}
                         {currentProfile.impact}

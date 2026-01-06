@@ -138,20 +138,22 @@ export default function Home() {
         {/* Welcome Section */}
         <section className="py-8 md:py-16 bg-[#eee1c6]">
           <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center max-w-6xl mx-auto">
-              <div className="bg-[#023020] text-[#eee1c6] p-6 md:p-8 rounded-lg">
-                <h2 className="text-xl md:text-2xl font-bold mb-4">Welcome to DataStory,</h2>
-                <p className="text-sm md:text-base leading-relaxed">
-                  a premier student-led organization at UC Berkeley dedicated to providing top-notch consulting services
-                  in the fields of data science and software development.
-                </p>
+            <div className="grid md:grid-cols-2 gap-6 md:gap-8 items-stretch max-w-6xl mx-auto">
+              <div className="bg-[#023020] text-[#eee1c6] p-6 md:p-8 rounded-lg flex items-center">
+                <div>
+                  <h2 className="text-lg md:text-xl font-bold mb-4">Welcome to DataStory,</h2>
+                  <p className="text-xs md:text-sm leading-relaxed">
+                    a premier student-led organization at UC Berkeley dedicated to providing top-notch consulting services
+                    in the fields of data science and software development.
+                  </p>
+                </div>
               </div>
-              <div className="relative h-[200px] md:h-[300px] rounded-lg overflow-hidden">
+              <div className="relative rounded-lg overflow-hidden">
                 <Image
-                  src="/images/leadership-team-women.png"
+                  src="/images/women-2026-group.jpg"
                   alt="DataStory leadership team"
                   fill
-                  className="object-cover"
+                  className="object-cover rounded-lg"
                 />
               </div>
             </div>

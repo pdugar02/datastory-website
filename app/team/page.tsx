@@ -54,20 +54,14 @@ export default function Team() {
 
       {/* Hero Section */}
       <section
-        className="relative h-[500px] md:h-[600px] bg-cover bg-center overflow-hidden"
-        style={{ backgroundImage: "url('/images/meet-our-members-hero-new.jpeg')" }}
+        className="relative h-[375px] md:h-[450px] bg-cover overflow-hidden"
+        style={{ 
+          backgroundImage: "url('/images/meet-mems-2026.jpg')",
+          backgroundPosition: "center 35%"
+        }}
       >
-        <div className="absolute inset-0 bg-black/20"></div>
-
-        <div className="absolute inset-0 flex flex-col justify-center items-center">
-          {/* Top row - MEET OUR */}
-          <div className="flex justify-center items-center gap-8 md:gap-16 mb-4 md:mb-8">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#eee1c6] tracking-wider">MEET</h1>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#eee1c6] tracking-wider">OUR</h1>
-          </div>
-
-          {/* Bottom row - MEMBERS */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#eee1c6] tracking-wider">MEMBERS</h1>
+        <div className="absolute inset-0 flex flex-col justify-start items-center pt-12 md:pt-16">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#eee1c6] tracking-wider">MEET OUR MEMBERS</h1>
         </div>
       </section>
 
@@ -307,7 +301,7 @@ export default function Team() {
               <div className="text-center group relative">
                 <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                   <Image
-                    src="/images/kathy-yun-headshot.png"
+                    src="/images/kathy-yun-headshot.JPG"
                     alt="Kathy Yun"
                     width={128}
                     height={160}
@@ -640,7 +634,7 @@ export default function Team() {
                   <div className="text-center group relative">
                     <div className="w-20 h-24 md:w-32 md:h-40 rounded-lg mx-auto mb-2 md:mb-4 overflow-hidden relative">
                       <Image
-                        src="/images/kathy-yun-headshot.png"
+                        src="/images/kathy-yun-headshot.JPG"
                         alt="Kathy Yun"
                         width={128}
                         height={160}
