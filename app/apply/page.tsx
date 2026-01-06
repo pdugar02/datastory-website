@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { Mail, Linkedin, Instagram } from "lucide-react"
 import { MobileNav } from "@/components/mobile-nav"
@@ -12,9 +13,18 @@ export default function Apply() {
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <div className="flex items-center gap-2">
             <Link href="/">
-              <div className="text-xl font-bold cursor-pointer">DataStory</div>
+              <Image
+                src="/images/datastory-logo.png"
+                alt="DataStory Logo"
+                width={120}
+                height={40}
+                className="h-8 w-auto"
+                style={{
+                  filter:
+                    "brightness(0) saturate(100%) invert(93%) sepia(12%) saturate(346%) hue-rotate(15deg) brightness(96%) contrast(92%)",
+                }}
+              />
             </Link>
-            <span className="text-xl font-bold">{""}</span>
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <Link href="/about" className="text-sm font-medium hover:text-white transition-colors">
