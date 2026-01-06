@@ -15,7 +15,7 @@ export default function Home() {
       title: "Projects",
       description:
         "We are committed to helping businesses and organizations harness the power of data to make informed decisions and achieve impactful results. We work with a variety of companies, ranging from startups to non-profits to well-established corporations.",
-      image: "/images/projects-team-photo.png",
+      image: "/images/2026-projects-group-pic.jpg",
       icon: <BarChart3 className="h-8 w-8" />,
       buttonText: "View Projects",
       buttonLink: "/projects",
@@ -24,7 +24,7 @@ export default function Home() {
       title: "Community",
       description:
         "Community is a cornerstone of our club. We prioritize fostering lasting relationships through both large social events and smaller gatherings, ensuring members build meaningful connections that endure over time.",
-      image: "/images/community-team-photo-new.png",
+      image: "/images/2026-community-pic.jpg",
       icon: <Users className="h-8 w-8" />,
       buttonText: "Our Team",
       buttonLink: "/team",
