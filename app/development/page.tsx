@@ -8,6 +8,32 @@ import { MobileNav } from "@/components/mobile-nav"
 
 export default function Development() {
   const [currentAlumni, setCurrentAlumni] = useState(0)
+  const [isJCPExpanded, setIsJCPExpanded] = useState(false)
+  const [currentJCPImage, setCurrentJCPImage] = useState(0)
+
+  const jcpImages = [
+    "/images/fall 2025 jcp projects/casey-jcp.jpeg",
+    "/images/fall 2025 jcp projects/cole-alex-jcp.jpeg",
+    "/images/fall 2025 jcp projects/diya-cathryn-jcp.jpeg",
+    "/images/fall 2025 jcp projects/jayden-paulo-jcp.jpeg",
+    "/images/fall 2025 jcp projects/kira-chiara-jcp.jpeg",
+    "/images/fall 2025 jcp projects/krishna-rohan-jcp.jpeg",
+  ]
+
+  const nextJCPImage = () => {
+    setCurrentJCPImage((prev) => (prev + 1) % jcpImages.length)
+  }
+
+  const prevJCPImage = () => {
+    setCurrentJCPImage((prev) => (prev - 1 + jcpImages.length) % jcpImages.length)
+  }
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentJCPImage((prev) => (prev + 1) % jcpImages.length)
+    }, 5000)
+    return () => clearInterval(timer)
+  }, [jcpImages.length])
 
   const alumniData = [
     {
@@ -112,11 +138,95 @@ export default function Development() {
           </div>
         </section>
 
+        {/* Junior Consultant Program Section */}
+        <section className="pt-20 pb-20 bg-[#eee1c6]">
+          <div className="container mx-auto px-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-center text-[#023020] mb-12">Junior Consultant Program</h2>
+            <div className="grid md:grid-cols-2 gap-6 md:gap-8 items-stretch max-w-6xl mx-auto">
+              <div className="bg-[#023020] text-[#eee1c6] p-6 md:p-8 rounded-lg flex items-center">
+                <div>
+                  <h3 className="text-xl md:text-2xl font-bold mb-4">What is JCP?</h3>
+                  <div className="text-xs md:text-sm leading-relaxed">
+                    {isJCPExpanded ? (
+                      <>
+                        <p className="mb-4">
+                          The Junior Consultant Program (JCP) is a semester-long training and mentorship program designed for members with limited prior experience in data science or consulting. Participants develop core technical and professional skills through weekly workshops covering topics such as pandas, data cleaning, visualization, modeling, and applied tools like Streamlit.
+                        </p>
+                        <p className="mb-4">
+                          Junior Consultants also complete a final project of their choice, applying these skills end-to-end and presenting their work at the semester Project Showcase. The program serves as a structured pathway into the club's consulting teams, with most members completing one semester in JCP before transitioning into full consultant roles.
+                        </p>
+                        <button
+                          onClick={() => setIsJCPExpanded(false)}
+                          className="text-[#eee1c6] font-semibold hover:underline"
+                        >
+                          Read Less
+                        </button>
+                      </>
+                    ) : (
+                      <>
+                        <p className="mb-4">
+                          The Junior Consultant Program (JCP) is a semester-long training and mentorship program designed for members with limited prior experience in data science or consulting...
+                        </p>
+                        <button
+                          onClick={() => setIsJCPExpanded(true)}
+                          className="text-[#eee1c6] font-semibold hover:underline"
+                        >
+                          Read More
+                        </button>
+                      </>
+                    )}
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#023020] text-center md:text-left">Fall 2025 JCP Projects</h3>
+                <div className="relative rounded-lg overflow-hidden">
+                  {/* Navigation arrows */}
+                  <button
+                    onClick={prevJCPImage}
+                    className="absolute left-2 top-1/2 transform -translate-y-1/2 z-10 text-[#023020] hover:text-[#023020]/70 bg-white/80 rounded-full p-2 hidden md:block"
+                  >
+                    <ChevronLeft className="h-6 w-6" />
+                  </button>
+                  <button
+                    onClick={nextJCPImage}
+                    className="absolute right-2 top-1/2 transform -translate-y-1/2 z-10 text-[#023020] hover:text-[#023020]/70 bg-white/80 rounded-full p-2 hidden md:block"
+                  >
+                    <ChevronRight className="h-6 w-6" />
+                  </button>
+                  {/* Image carousel */}
+                  <div className="relative w-full h-[250px] md:h-[300px]">
+                    <Image
+                      src={jcpImages[currentJCPImage]}
+                      alt={`JCP Project ${currentJCPImage + 1}`}
+                      fill
+                      className="object-cover rounded-lg transition-opacity duration-500"
+                    />
+                  </div>
+                  {/* Slide indicators */}
+                  <div className="flex justify-center gap-2 mt-4">
+                    {jcpImages.map((_, index) => (
+                      <button
+                        key={index}
+                        onClick={() => setCurrentJCPImage(index)}
+                        className={`w-2 h-2 rounded-full transition-colors ${
+                          index === currentJCPImage ? "bg-[#023020]" : "bg-gray-300"
+                        }`}
+                        aria-label={`Go to slide ${index + 1}`}
+                      />
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Workshops Section */}
-        <section className="relative py-20 bg-[#023020] overflow-hidden">
+        <section className="relative pt-32 pb-20 bg-[#023020] overflow-hidden">
           {/* Curved background element */}
           <div className="absolute inset-0">
-            <div className="absolute top-0 right-0 w-[80%] h-full bg-[#eee1c6] rounded-l-full transform translate-x-1/2"></div>
+            <div className="absolute top-1/2 right-0 w-[80%] h-4/5 bg-[#eee1c6] rounded-l-full transform translate-x-1/2 -translate-y-1/2"></div>
           </div>
 
           <div className="container mx-auto px-4 relative z-10">
@@ -145,7 +255,7 @@ export default function Development() {
         <section className="relative py-20 bg-[#023020] overflow-hidden">
           {/* Curved background element */}
           <div className="absolute inset-0">
-            <div className="absolute bottom-0 left-0 w-[80%] h-full bg-[#eee1c6] rounded-r-full transform -translate-x-1/2"></div>
+            <div className="absolute top-1/2 left-0 w-[80%] h-4/5 bg-[#eee1c6] rounded-r-full transform -translate-x-1/2 -translate-y-1/2"></div>
           </div>
 
           <div className="container mx-auto px-4 relative z-10">
@@ -171,10 +281,10 @@ export default function Development() {
         </section>
 
         {/* Panels Section */}
-        <section className="relative py-20 bg-[#023020] overflow-hidden">
+        <section className="relative pt-20 pb-32 bg-[#023020] overflow-hidden">
           {/* Curved background element */}
           <div className="absolute inset-0">
-            <div className="absolute top-0 right-0 w-[80%] h-full bg-[#eee1c6] rounded-l-full transform translate-x-1/2"></div>
+            <div className="absolute top-1/2 right-0 w-[80%] h-4/5 bg-[#eee1c6] rounded-l-full transform translate-x-1/2 -translate-y-1/2"></div>
           </div>
 
           <div className="container mx-auto px-4 relative z-10">
@@ -201,12 +311,6 @@ export default function Development() {
 
         {/* Awards Section */}
         <section className="py-20 bg-[#eee1c6] relative overflow-hidden">
-          {/* Curved background elements */}
-          <div className="absolute top-0 left-0 w-full h-32 bg-[#023020] rounded-b-full transform -translate-y-16"></div>
-          <div className="absolute inset-0">
-            <div className="absolute top-0 right-0 w-[80%] h-full bg-[#eee1c6] rounded-l-full transform translate-x-1/2"></div>
-          </div>
-
           <div className="container mx-auto px-4 relative z-10">
             <h2 className="text-5xl md:text-6xl font-bold text-center mb-16 text-[#023020]">AWARDS</h2>
 

@@ -32,7 +32,7 @@ export default function Home() {
     {
       title: "Professional Development",
       description:
-        "We strive to provide our members with opportunities to gain real-world experience through consulting projects, workshops, and mentorship programs that prepare them for successful careers in data science.",
+        "We strive to provide our members with real-world experience through consulting projects, workshops, and mentorship that prepare them for careers in data science. We also offer a Junior Consultant Program to support members early in their data science journey through structured training and project-based learning.",
       image: "/images/professional-development-team.png",
       icon: <Building2 className="h-8 w-8" />,
       buttonText: "Learn More",
@@ -245,8 +245,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg md:text-xl font-bold mb-4 text-[#023020]">Students</h3>
                 <p className="text-gray-700 leading-relaxed text-center text-sm md:text-base">
-                  We recruit new members at the beginning of every semester! All skill levels are welcome. Our Spring
-                  2025 application process will be available Mid-January.
+                  We recruit new members at the beginning of every semester! Recruitment typically takes place the first two weeks of the semester. All skill levels are welcome.
                 </p>
               </div>
               <div className="text-center">
