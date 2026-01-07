@@ -153,7 +153,7 @@ export default function Development() {
                           The Junior Consultant Program (JCP) is a semester-long training and mentorship program designed for members with limited prior experience in data science or consulting. Participants develop core technical and professional skills through weekly workshops covering topics such as pandas, data cleaning, visualization, modeling, and applied tools like Streamlit.
                         </p>
                         <p className="mb-4">
-                          Junior Consultants also complete a final project of their choice, applying these skills end-to-end and presenting their work at the semester Project Showcase. The program serves as a structured pathway into the club's consulting teams, with most members completing one semester in JCP before transitioning into full consultant roles.
+                          Junior Consultants also complete a final project of their choice, applying these skills end-to-end and presenting their work at the semester Project Showcase. The program serves as a structured pathway into the club&apos;s consulting teams, with most members completing one semester in JCP before transitioning into full consultant roles.
                         </p>
                         <button
                           onClick={() => setIsJCPExpanded(false)}
