@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   title: 'DataStory at Berkeley',
   description: 'Building Community Through Data Science - A premier student-led organization at UC Berkeley providing top-notch consulting services in data science and software development.',
   generator: 'Next.js',
+  icons: {
+    icon: '/images/website_favicon.png',
+    apple: '/images/website_favicon.png',
+  },
 }
 
 export default function RootLayout({
