@@ -141,7 +141,7 @@ export default function Development() {
         {/* Junior Consultant Program Section */}
         <section className="pt-20 pb-20 bg-[#eee1c6]">
           <div className="container mx-auto px-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-center text-[#023020] mb-12">Junior Consultant Program</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-center text-[#023020] mb-12">JUNIOR CONSULTANT PROGRAM</h2>
             <div className="grid md:grid-cols-2 gap-6 md:gap-8 items-stretch max-w-6xl mx-auto">
               <div className="bg-[#023020] text-[#eee1c6] p-6 md:p-8 rounded-lg flex items-center">
                 <div>
@@ -164,8 +164,11 @@ export default function Development() {
                       </>
                     ) : (
                       <>
-                        <p className="mb-4">
+                        <p className="mb-4 md:hidden">
                           The Junior Consultant Program (JCP) is a semester-long training and mentorship program designed for members with limited prior experience in data science or consulting...
+                        </p>
+                        <p className="mb-4 hidden md:block">
+                          The Junior Consultant Program (JCP) is a semester-long training and mentorship program designed for members with limited prior experience in data science or consulting. Participants develop core technical and professional skills through weekly workshops covering topics such as pandas, data cleaning, visualization, modeling, and applied tools like Streamlit.
                         </p>
                         <button
                           onClick={() => setIsJCPExpanded(true)}
