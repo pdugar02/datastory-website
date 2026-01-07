@@ -52,7 +52,7 @@ export default function About() {
 
       <main className="flex-1">
         {/* Hero Section - WHO WE ARE */}
-        <section className="relative h-[400px] md:h-[500px] overflow-hidden">
+        <section className="relative h-[375px] md:h-[600px] overflow-hidden">
           <Image
             src="/images/about-hero-team.png"
             alt="DataStory team"

@@ -142,10 +142,18 @@ export default function Home() {
               <div className="bg-[#023020] text-[#eee1c6] p-6 md:p-8 rounded-lg flex items-center">
                 <div>
                   <h2 className="text-lg md:text-xl font-bold mb-4">Welcome to DataStory,</h2>
-                  <p className="text-xs md:text-sm leading-relaxed">
+                  <p className="text-xs md:text-sm leading-relaxed mb-6">
                     a premier student-led organization at UC Berkeley dedicated to providing top-notch consulting services
                     in the fields of data science and software development.
                   </p>
+                  <Link href="/apply">
+                    <Button
+                      variant="outline"
+                      className="border-[#eee1c6] text-[#eee1c6] hover:bg-[#eee1c6] hover:text-[#023020] bg-transparent w-full md:w-auto"
+                    >
+                      Apply Now
+                    </Button>
+                  </Link>
                 </div>
               </div>
               <div className="relative rounded-lg overflow-hidden">

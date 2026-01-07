@@ -66,7 +66,7 @@ export default function ProjectsPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative h-[400px] md:h-[500px] overflow-hidden">
+      <section className="relative h-[375px] md:h-[600px] overflow-hidden">
         <Image
           src="/images/our-work-hero-new.jpeg"
           alt="DataStory team"
