@@ -189,7 +189,7 @@ export default function Team() {
                   </div>
                 </div>
                 <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Yash Chitambar</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">VP of Projects</p>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Co-VP of Projects</p>
                 <Link
                   href="https://www.linkedin.com/in/yash-chitambar-b3139829a/"
                   target="_blank"
@@ -215,7 +215,7 @@ export default function Team() {
                   </div>
                 </div>
                 <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Ajay Kankipati</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">VP of Projects</p>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Co-VP of Projects</p>
                 <Link
                   href="https://www.linkedin.com/in/ajay-kankipati-86895b271/"
                   target="_blank"
@@ -292,7 +292,7 @@ export default function Team() {
                   </div>
                 </div>
                 <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Tony Getsin</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Dir. of Jr Consultants</p>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Co-Dir. of Jr Consultants</p>
                 <Link href="https://www.linkedin.com/in/tonygetsin/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
@@ -314,7 +314,7 @@ export default function Team() {
                   </div>
                 </div>
                 <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Kathy Yun</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Dir. of Jr Consultants</p>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Co-Dir. of Jr Consultants</p>
                 <Link
                   href="https://www.linkedin.com/in/kathy-yun-2b4128314/"
                   target="_blank"
@@ -418,7 +418,7 @@ export default function Team() {
                   </div>
                 </div>
                 <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Casey Colson</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Jr Internal VP</p>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Co-Jr Internal VP</p>
                 <Link href="https://www.linkedin.com/in/caseycolson/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>
@@ -440,7 +440,7 @@ export default function Team() {
                   </div>
                 </div>
                 <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Vrushtee Shah</h3>
-                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Jr Internal VP</p>
+                <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Co-Jr Internal VP</p>
                 <Link href="https://www.linkedin.com/in/vrushteeshah13/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                 </Link>

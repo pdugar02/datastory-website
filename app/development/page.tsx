@@ -37,17 +37,6 @@ export default function Development() {
 
   const alumniData = [
     {
-      name: "GRAHAM KUTCHEK",
-      graduatingClass: "Spring 2021",
-      position: "Database Specialist Solution Architect, Media & Entertainment at Amazon Web Services",
-      location: "San Francisco, CA",
-      interests:
-        "Snowboarding, Weekends in the Sierra, Sewing, Saxophone, Italian deli sandwiches, Tech, Old houses, & Tech-house",
-      impact:
-        "DataStory was a great way for me to find community among peers on the same professional path as myself. The projects & exposure to real companies was something I could have never found on my own.",
-      image: "/images/graham-graduation-photo.png",
-    },
-    {
       name: "RYAN CHAN",
       graduatingClass: "Spring 2025",
       position: "Software Engineer at Meta",
@@ -55,6 +44,24 @@ export default function Development() {
       impact:
         "DataStory helped me improve my professional career tremendously. I remember for my first internship half their behavioral interview questions were about my experiences at DataStory. I learned a lot of professional advice and got tons of hands on experience from a variety of consulting projects.",
       image: "/images/Ryan-chan-headshot.jpeg",
+    },
+    {
+      name: "HAILEY HOLCOMB",
+      graduatingClass: "Spring 2025",
+      position: "Software Engineer at Walmart",
+      location: "San Francisco, CA",
+      impact:
+        "Working on a project at school that affects more than just your personal grade is super rewarding! Doing work for DataStory is challenging in unique ways and teaches you skills that you could never learn in a class environment.",
+      image: "/images/hailey-holcomb-headshot.jpeg",
+    },
+    {
+      name: "IMAN HUNDAL",
+      graduatingClass: "Fall 2024",
+      position: "Data Analyst at Capital One",
+      location: "Washington D.C.",
+      impact:
+        "The network of friends and connections I've built in many diverse fields within tech has been very useful and will be a great resources in the future!",
+      image: "/images/iman-hundal-headshot.jpeg",
     },
   ]
 
@@ -436,9 +443,9 @@ export default function Development() {
                       <p>
                         <span className="font-semibold italic">Location:</span> {currentProfile.location}
                       </p>
-                      {currentProfile.interests && (
+                      {'interests' in currentProfile && (currentProfile as any).interests && (
                         <p>
-                          <span className="font-semibold italic">Interests:</span> {currentProfile.interests}
+                          <span className="font-semibold italic">Interests:</span> {(currentProfile as any).interests as string}
                         </p>
                       )}
                       <p>
