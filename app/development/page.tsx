@@ -6,6 +6,15 @@ import { Mail, Linkedin, Instagram, ChevronLeft, ChevronRight } from "lucide-rea
 import { useState, useEffect } from "react"
 import { MobileNav } from "@/components/mobile-nav"
 
+type AlumniProfile = {
+  name: string
+  graduatingClass: string
+  position: string
+  location?: string
+  impact: string
+  image: string
+}
+
 export default function Development() {
   const [currentAlumni, setCurrentAlumni] = useState(0)
   const [isJCPExpanded, setIsJCPExpanded] = useState(false)
@@ -35,7 +44,7 @@ export default function Development() {
     return () => clearInterval(timer)
   }, [jcpImages.length])
 
-  const alumniData = [
+  const alumniData: AlumniProfile[] = [
     {
       name: "RYAN CHAN",
       graduatingClass: "Spring 2025",
@@ -62,6 +71,15 @@ export default function Development() {
       impact:
         "The network of friends and connections I've built in many diverse fields within tech has been very useful and will be a great resources in the future!",
       image: "/images/iman-hundal-headshot.jpeg",
+    },
+    {
+      name: "VICTOR SHI",
+      graduatingClass: "Spring 2025",
+      position: "Software Engineer at Meta",
+      location: "Seattle, WA",
+      impact:
+        "DataStory helped a lot early in my career to add value to resume through project managing, being on projects, etc. Social events were a lot of fun.",
+      image: "/images/victor-shi-headshot.png",
     },
   ]
 
@@ -440,12 +458,9 @@ export default function Development() {
                       <p>
                         <span className="font-semibold italic">Current Position:</span> {currentProfile.position}
                       </p>
-                      <p>
-                        <span className="font-semibold italic">Location:</span> {currentProfile.location}
-                      </p>
-                      {'interests' in currentProfile && (currentProfile as any).interests && (
+                      {currentProfile.location && (
                         <p>
-                          <span className="font-semibold italic">Interests:</span> {(currentProfile as any).interests as string}
+                          <span className="font-semibold italic">Location:</span> {currentProfile.location}
                         </p>
                       )}
                       <p>

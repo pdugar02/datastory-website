@@ -55,7 +55,7 @@ export default function Apply() {
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl md:text-7xl font-bold text-[#eee1c6] mb-8">APPLY NOW</h1>
             <p className="text-xl md:text-2xl text-[#eee1c6] mb-12">
-              Join DataStory and become part of our data science consulting team!
+              Join DataStory and become part of our data science consulting team! Apply as a Junior Consultant or Consultant.
             </p>
           </div>
         </section>
