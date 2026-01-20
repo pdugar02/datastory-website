@@ -89,7 +89,7 @@ export default function Apply() {
                 Spring 2026 applications are open January 20th and due January 30th at noon.
               </p>
               <a 
-                href="https://forms.gle/n66HToZwhyN6yrWLA" 
+                href="https://forms.gle/kG7JohsYbtfapJct5" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block bg-[#023020] text-white px-10 py-5 rounded-lg text-xl font-semibold hover:bg-[#034a2a] transition-colors duration-200 shadow-lg"

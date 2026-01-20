@@ -69,7 +69,7 @@ export default function Development() {
       position: "Data Analyst at Capital One",
       location: "Washington D.C.",
       impact:
-        "The network of friends and connections I've built in many diverse fields within tech has been very useful and will be a great resources in the future!",
+        "The network of friends and connections I've built in many diverse fields within tech has been very useful and will be a great resource in the future!",
       image: "/images/iman-hundal-headshot.jpeg",
     },
     {
@@ -80,6 +80,15 @@ export default function Development() {
       impact:
         "DataStory helped a lot early in my career to add value to resume through project managing, being on projects, etc. Social events were a lot of fun.",
       image: "/images/victor-shi-headshot.png",
+    },
+    {
+      name: "IRIS CHAO",
+      graduatingClass: "Spring 2025",
+      position: "Marketing Analyst at Adobe",
+      location: "San Francisco, CA",
+      impact:
+        "DataStory showed me the positive impact that people can have on your professional and personal life. It was so motivating to be surrounded by the smartest, most talented people who push each other to achieve our academic and professional goals.",
+      image: "/images/iris-chao-headshot.jpeg",
     },
   ]
 
