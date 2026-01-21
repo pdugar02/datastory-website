@@ -253,6 +253,17 @@ export default function Development() {
                       />
                     ))}
                   </div>
+                  {/* JCP Flyer Button */}
+                  <div className="flex justify-center mt-4">
+                    <a 
+                      href="/images/JCP flyers.png" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="inline-block bg-[#023020] text-[#eee1c6] px-6 py-2 rounded-lg font-semibold hover:bg-[#034a2a] transition-colors duration-200"
+                    >
+                      See JCP Flyer
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
