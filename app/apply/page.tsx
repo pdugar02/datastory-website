@@ -62,7 +62,7 @@ export default function Apply() {
 
         {/* Application Form Section */}
         <section className="py-16 bg-white">
-          <div className="container mx-auto px-4 max-w-4xl">
+          <div className="container mx-auto px-4 max-w-7xl">
             <div className="bg-white rounded-lg shadow-lg p-8">
               <h2 className="text-3xl font-bold text-[#023020] mb-8 text-center">Spring 2026 Coffee Chats</h2>
               <div className="w-full">
