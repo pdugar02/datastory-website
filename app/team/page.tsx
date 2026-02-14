@@ -1051,10 +1051,10 @@ export default function Team() {
                   </div>
                 </div>
 
-                {/* Tenth Row - Remainder */}
-                <div className="flex flex-wrap justify-evenly gap-4 md:gap-8 mb-12 max-w-6xl mx-auto">
+                {/* Tenth Row - Cole, Ria, Cathryn (3 evenly spaced, stay in one row on mobile) */}
+                <div className="grid grid-cols-3 gap-2 sm:gap-4 md:gap-8 mb-12 max-w-6xl mx-auto justify-items-center">
                   {/* Cole Dickerson */}
-                  <div className="text-center group relative">
+                  <div className="text-center group relative min-w-0">
                     <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/cole-dickerson-headshot.jpeg"
@@ -1079,8 +1079,30 @@ export default function Team() {
                     </Link>
                   </div>
 
+                  {/* Ria Voodi */}
+                  <div className="text-center group relative min-w-0">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                      <Image
+                        src="/images/ria-voodi-headshot.jpeg"
+                        alt="Ria Voodi"
+                        width={128}
+                        height={160}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-sm p-2">
+                        <p className="font-semibold">Sophomore</p>
+                        <p className="text-center">Data Science, Economics</p>
+                      </div>
+                    </div>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Ria Voodi</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
+                    <Link href="https://www.linkedin.com/in/riavoodi/" target="_blank" rel="noopener noreferrer">
+                      <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                    </Link>
+                  </div>
+
                   {/* Cathryn Chang */}
-                  <div className="text-center group relative">
+                  <div className="text-center group relative min-w-0">
                     <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
                       <Image
                         src="/images/cathryn-chang-headshot.jpg"
@@ -1097,6 +1119,53 @@ export default function Team() {
                     <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Cathryn Chang</h3>
                     <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
                     <Link href="https://www.linkedin.com/in/cathryn-chang/" target="_blank" rel="noopener noreferrer">
+                      <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Eleventh Row - two consultants evenly spaced, stay in one row on mobile */}
+                <div className="grid grid-cols-2 gap-2 sm:gap-4 md:gap-8 mb-12 max-w-6xl mx-auto justify-items-center">
+                  {/* Akshay Anand */}
+                  <div className="text-center group relative min-w-0">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                      <Image
+                        src="/images/akshay-anand-headshot.jpeg"
+                        alt="Akshay Anand"
+                        width={128}
+                        height={160}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-sm p-2">
+                        <p className="font-semibold">Sophomore</p>
+                        <p className="text-center">Computer Science</p>
+                      </div>
+                    </div>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Akshay Anand</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
+                    <Link href="https://www.linkedin.com/in/akshay-anand-968b27230/" target="_blank" rel="noopener noreferrer">
+                      <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
+                    </Link>
+                  </div>
+
+                  {/* Dennis Vengerov */}
+                  <div className="text-center group relative min-w-0">
+                    <div className="w-20 h-24 md:w-32 md:h-40 mx-auto mb-2 md:mb-4 overflow-hidden rounded-lg relative">
+                      <Image
+                        src="/images/dennis-vengerov-headshot.jpeg"
+                        alt="Dennis Vengerov"
+                        width={128}
+                        height={160}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-sm p-2">
+                        <p className="font-semibold">Sophomore</p>
+                        <p className="text-center">Data Science, Computer Science</p>
+                      </div>
+                    </div>
+                    <h3 className="text-sm md:text-xl font-bold text-[#eee1c6] mb-1">Dennis Vengerov</h3>
+                    <p className="text-xs md:text-base text-[#eee1c6] italic mb-1 md:mb-2">Consultant</p>
+                    <Link href="https://www.linkedin.com/in/dennis-vengerov-a78376294/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5 text-[#eee1c6] mx-auto cursor-pointer hover:text-white" />
                     </Link>
                   </div>

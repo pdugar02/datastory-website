@@ -55,7 +55,7 @@ export default function Apply() {
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl md:text-7xl font-bold text-[#eee1c6] mb-8">APPLY NOW</h1>
             <p className="text-xl md:text-2xl text-[#eee1c6] mb-12">
-              Join DataStory and become part of our data science consulting team! Apply as a Junior Consultant, Data Consultant, or Project Manager.
+              Applications are now closed for the Spring 2026 semester. Check back in Fall 2026 for information on the next application cycle.
             </p>
           </div>
         </section>
@@ -86,7 +86,7 @@ export default function Apply() {
             <h2 className="text-3xl font-bold text-[#023020] mb-2">Application Link</h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-gray-600 mb-6 italic">
-                Spring 2026 applications are open January 20th and due January 30th at noon.
+                Spring 2026 applications are now closed. Check back in Fall 2026!
               </p>
               <a 
                 href="https://forms.gle/kG7JohsYbtfapJct5" 
